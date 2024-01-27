@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 33c21d40fb4e864584b49b242ac266a3
     GuidInternal: 
-    m_lastTime: -8584952600670609243
+    m_lastTime: -8584952579123895399
     List: []
   - PhysicalPath: Virtual Acoustics\Factory Acoustic Textures.wwu
     PathAndIcons:
@@ -37,7 +37,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Factory Acoustic Textures
     guid: 6b663d46a83ca54f8b4a5fef12b883f6
     GuidInternal: 
-    m_lastTime: -8584952612786772633
+    m_lastTime: -8584952579123895399
     List:
     - name: Acoustic_Banner
       guid: f2532d2fccda8e408b8898b1b52a26d6
@@ -303,7 +303,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 19654d6656e56c4494b6d5175fc52cfe
     GuidInternal: 
-    m_lastTime: -8584952600669696205
+    m_lastTime: -8584952579123915187
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -331,8 +331,92 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 5777fabc01e1874080fa133f9d583b9c
     GuidInternal: 
-    m_lastTime: -8584952600670419766
-    List: []
+    m_lastTime: -8584952572944838215
+    List:
+    - name: AMB
+      guid: 09ebcf7859ac5b48a7db24e5b262ef39
+      id: 1117531639
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5777fabc01e1874080fa133f9d583b9c
+      - ElementName: AMB
+        ObjectType: 7
+        guid: 09ebcf7859ac5b48a7db24e5b262ef39
+      Path: SoundBanks\Default Work Unit\AMB
+    - name: FOLEY
+      guid: b83618f392b91b40980ea11cdd4f16fa
+      id: 247557814
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5777fabc01e1874080fa133f9d583b9c
+      - ElementName: FOLEY
+        ObjectType: 7
+        guid: b83618f392b91b40980ea11cdd4f16fa
+      Path: SoundBanks\Default Work Unit\FOLEY
+    - name: SFX
+      guid: 81246bba4e2f2b4dbf329926a4a699d9
+      id: 393239870
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5777fabc01e1874080fa133f9d583b9c
+      - ElementName: SFX
+        ObjectType: 7
+        guid: 81246bba4e2f2b4dbf329926a4a699d9
+      Path: SoundBanks\Default Work Unit\SFX
+    - name: TEST
+      guid: a396fd302522b941bc2797bfc98bbd0d
+      id: 3157003241
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5777fabc01e1874080fa133f9d583b9c
+      - ElementName: TEST
+        ObjectType: 7
+        guid: a396fd302522b941bc2797bfc98bbd0d
+      Path: SoundBanks\Default Work Unit\TEST
+    - name: UI
+      guid: abe0a8df11d52c4b93ce3d5677f26917
+      id: 1551306167
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5777fabc01e1874080fa133f9d583b9c
+      - ElementName: UI
+        ObjectType: 7
+        guid: abe0a8df11d52c4b93ce3d5677f26917
+      Path: SoundBanks\Default Work Unit\UI
+    - name: VOICE
+      guid: e9011920378c8e4c86deb0e3bef1d0ef
+      id: 3170124113
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5777fabc01e1874080fa133f9d583b9c
+      - ElementName: VOICE
+        ObjectType: 7
+        guid: e9011920378c8e4c86deb0e3bef1d0ef
+      Path: SoundBanks\Default Work Unit\VOICE
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -345,8 +429,130 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 24c1804680b48043b28d71aaf9e874e3
     GuidInternal: 
-    m_lastTime: -8584952600669536614
-    List: []
+    m_lastTime: -8584952572944788381
+    List:
+    - name: AMB
+      guid: 3688ce5b41e8ae499da38cbecfa2cfb4
+      id: 1117531639
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 24c1804680b48043b28d71aaf9e874e3
+      - ElementName: AMB
+        ObjectType: 4
+        guid: 3688ce5b41e8ae499da38cbecfa2cfb4
+      Path: Events\Default Work Unit\AMB
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: FOLEY
+      guid: b8a80760a0e70c4d87d18b9bca87dc28
+      id: 247557814
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 24c1804680b48043b28d71aaf9e874e3
+      - ElementName: FOLEY
+        ObjectType: 4
+        guid: b8a80760a0e70c4d87d18b9bca87dc28
+      Path: Events\Default Work Unit\FOLEY
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: SFX
+      guid: eccdcd9fc243c747bf891969a76a84aa
+      id: 393239870
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 24c1804680b48043b28d71aaf9e874e3
+      - ElementName: SFX
+        ObjectType: 4
+        guid: eccdcd9fc243c747bf891969a76a84aa
+      Path: Events\Default Work Unit\SFX
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: TEST
+      guid: c2760c89878e9b49b584cf80667f764b
+      id: 3157003241
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 24c1804680b48043b28d71aaf9e874e3
+      - ElementName: TEST
+        ObjectType: 4
+        guid: c2760c89878e9b49b584cf80667f764b
+      Path: Events\Default Work Unit\TEST
+      maxAttenuation: 0
+      maxDuration: 2.2333333
+      minDuration: 2.2333333
+    - name: TEST
+      guid: 3f864a96d0666143b0be75d6c88ee027
+      id: 3157003241
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 24c1804680b48043b28d71aaf9e874e3
+      - ElementName: TEST
+        ObjectType: 4
+        guid: c2760c89878e9b49b584cf80667f764b
+      - ElementName: TEST
+        ObjectType: 3
+        guid: 3f864a96d0666143b0be75d6c88ee027
+      Path: Events\Default Work Unit\TEST\TEST
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: UI
+      guid: abc8498b11dacd4ab1c1180a4fbd75c3
+      id: 1551306167
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 24c1804680b48043b28d71aaf9e874e3
+      - ElementName: UI
+        ObjectType: 4
+        guid: abc8498b11dacd4ab1c1180a4fbd75c3
+      Path: Events\Default Work Unit\UI
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: VOICE
+      guid: dc1c6eb81b51ae4c82c8223f8820a9f8
+      id: 3170124113
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 24c1804680b48043b28d71aaf9e874e3
+      - ElementName: VOICE
+        ObjectType: 4
+        guid: dc1c6eb81b51ae4c82c8223f8820a9f8
+      Path: Events\Default Work Unit\VOICE
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -359,7 +565,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 6afaa14a95c4504d90a4eae63c684cfe
     GuidInternal: 
-    m_lastTime: -8584952600670320022
+    m_lastTime: -8584952579123915187
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -373,7 +579,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 363849c94b10bc4d944814c944bfb0ce
     GuidInternal: 
-    m_lastTime: -8584952600669467008
+    m_lastTime: -8584952579123895399
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -387,7 +593,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: c2ae3aeb01c98f4cb1d5cc8fff284db9
     GuidInternal: 
-    m_lastTime: -8584952600670140476
+    m_lastTime: -8584952579123895399
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -401,7 +607,7 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 3cb6517281905e4db26ff56524d00310
     GuidInternal: 
-    m_lastTime: -8584952600670220304
+    m_lastTime: -8584952579123895399
     List: []
   ExpandedFileSystemItemIds: 
   ExpandedWaapiItemIds: 

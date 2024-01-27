@@ -1,6 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{F150F117-97FF-4AED-ADEC-80E5D964E3CB}" SchemaVersion="110">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{F150F117-97FF-4AED-ADEC-80E5D964E3CB}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{F150F117-97FF-4AED-ADEC-80E5D964E3CB}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="FOLEY" ID="{680C1654-710E-4809-A887-C461A62046FE}" ShortID="490415185">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+						</Reference>
+					</ReferenceList>
+				</ActorMixer>
+				<ActorMixer Name="AMB" ID="{C49D70A7-70BD-4B2E-ACF5-EA1CD3FCC0B4}" ShortID="210854730">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+						</Reference>
+					</ReferenceList>
+				</ActorMixer>
+				<ActorMixer Name="SFX" ID="{FF594178-F0D4-4AAB-BDC0-E5A7B5507A94}" ShortID="183370051">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+						</Reference>
+					</ReferenceList>
+				</ActorMixer>
+				<ActorMixer Name="VOICE" ID="{850DA513-3408-4430-83D6-5C7E1FF1E392}" ShortID="1063700283">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+						</Reference>
+					</ReferenceList>
+				</ActorMixer>
+				<ActorMixer Name="UI" ID="{1ED1CC73-A0FF-4271-8E25-6D2395A84204}" ShortID="617386151">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+						</Reference>
+					</ReferenceList>
+				</ActorMixer>
+				<ActorMixer Name="TEST" ID="{3D276776-2710-4545-9D93-932E0C061D5A}" ShortID="214220643">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="SFX_Enemy_Spawn_Magic_A_02" ID="{390AC530-29AF-445F-877E-41F6B7ABDFDA}" ShortID="911125528">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Enemy_Spawn_Magic_A_02" ID="{DEE16306-9E8D-49F0-8BCB-7F04D456B76D}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_Enemy_Spawn_Magic_A_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="270389244"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Enemy_Spawn_Magic_A_02" ID="{DEE16306-9E8D-49F0-8BCB-7F04D456B76D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

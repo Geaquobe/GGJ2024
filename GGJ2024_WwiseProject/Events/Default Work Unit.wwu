@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{4680C124-B480-4380-B28D-71AAF9E874E3}" SchemaVersion="110">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{4680C124-B480-4380-B28D-71AAF9E874E3}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{4680C124-B480-4380-B28D-71AAF9E874E3}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="AMB" ID="{5BCE8836-E841-49AE-9DA3-8CBECFA2CFB4}" ShortID="247915188"/>
+				<Folder Name="FOLEY" ID="{6007A8B8-E7A0-4D0C-87D1-8B9BCA87DC28}" ShortID="927658885"/>
+				<Folder Name="SFX" ID="{9FCDCDEC-43C2-47C7-BF89-1969A76A84AA}" ShortID="679515523"/>
+				<Folder Name="UI" ID="{8B49C8AB-DA11-4ACD-B1C1-180A4FBD75C3}" ShortID="812477595"/>
+				<Folder Name="VOICE" ID="{B86E1CDC-511B-4CAE-82C8-223F8820A9F8}" ShortID="1026406509"/>
+				<Folder Name="TEST" ID="{890C76C2-8E87-499B-B584-CF80667F764B}" ShortID="122297095">
+					<ChildrenList>
+						<Event Name="TEST" ID="{964A863F-66D0-4361-B0BE-75D6C88EE027}">
+							<ChildrenList>
+								<Action Name="" ID="{2F60AFDA-1D73-4D5B-A56C-BF3F49B16C15}" ShortID="878497993">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Enemy_Spawn_Magic_A_02" ID="{390AC530-29AF-445F-877E-41F6B7ABDFDA}" WorkUnitID="{F150F117-97FF-4AED-ADEC-80E5D964E3CB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3157003241	TEST			\Default Work Unit\TEST\TEST	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	270389244	SFX_Enemy_Spawn_Magic_A_02	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Enemy_Spawn_Magic_A_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\TEST\SFX_Enemy_Spawn_Magic_A_02		214496
+
