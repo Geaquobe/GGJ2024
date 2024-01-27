@@ -69,4 +69,18 @@ public class MenuController : MonoBehaviour
         if(_rightPanel != null) inputs.SetShoulderListener(MenuInputs.Side.Right, _rightPanel.onClick.Invoke, _rightPanel.Select);
         if(_leftPanel != null) inputs.SetShoulderListener(MenuInputs.Side.Left, _leftPanel.onClick.Invoke, _leftPanel.Select);
     }
+
+    public void mouseOn(){
+        Texture2D newTexture = Resources.Load<Texture2D>("Images/Accueil_bad");
+        GameObject bg = GameObject.FindGameObjectWithTag("backGround");
+        newTexture.filterMode = FilterMode.Point;
+        bg.GetComponent<RawImage>().texture = newTexture;
+    }
+
+    public void mouseOff(){
+        Texture2D newTexture = Resources.Load<Texture2D>("Images/Accueil_good");
+        GameObject bg = GameObject.FindGameObjectWithTag("backGround");
+        newTexture.filterMode = FilterMode.Point;
+        bg.GetComponent<RawImage>().texture = newTexture;
+    }
 }
