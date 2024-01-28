@@ -132,7 +132,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.431682, y: 0.042435583, z: 0.31489298}
+  m_Size: {x: 0.431682, y: 0.010608895, z: 0.31489298}
   m_Center: {x: -0.000000067055225, y: 0.021846613, z: 0}
 --- !u!114 &6580062721893057746
 MonoBehaviour:
@@ -149,6 +149,7 @@ MonoBehaviour:
   type: 0
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0}
+  audioTest: 0
   grabKey: 97
   throwKey: 122
   interactKey: 101

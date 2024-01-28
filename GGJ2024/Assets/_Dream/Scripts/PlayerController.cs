@@ -28,7 +28,6 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Transform objectHolder;
     [SerializeField] private Transform objectCamera;
 
-    //[SerializeField] private float throwForce = 500f;
     [SerializeField] private float minThrow = 50f;
     [SerializeField] private float maxThrow = 500f;
     [SerializeField] private float timeMinToMax = 1f;
@@ -177,7 +176,7 @@ void ThrowObject()
         horizontalInput = Input.GetAxisRaw("Horizontal");
         verticalInput = Input.GetAxisRaw("Vertical");
 
-        if(Input.GetKey(jumpKey) && grounded && canJump)
+        if(Input.GetKeyDown(jumpKey) && grounded && canJump)
         {
             Jump();
             Invoke(nameof(ResetJump), jumpCooldown);
