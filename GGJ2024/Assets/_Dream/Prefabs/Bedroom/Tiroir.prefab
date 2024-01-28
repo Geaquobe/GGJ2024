@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2291535115428302338}
   - component: {fileID: 7945391533378070035}
   - component: {fileID: 3449629525580076077}
+  - component: {fileID: -4416539879595326912}
   m_Layer: 0
   m_Name: Tiroir
   m_TagString: Open
@@ -106,3 +107,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.48118716, y: 0.30560815, z: 0.16815798}
   m_Center: {x: 0.15863267, y: -0.00025176277, z: 0.0032339878}
+--- !u!114 &-4416539879595326912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7690606864344004029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62c9fec53b3ac5c4ab3af0bbbdeac131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 0
+  position: {x: 0, y: 0, z: 0}
+  rotation: {x: 0, y: 0, z: 0}
