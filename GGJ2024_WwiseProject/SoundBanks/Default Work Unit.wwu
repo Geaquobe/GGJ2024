@@ -1,6 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{BCFA7757-E101-4087-80FA-133F9D583B9C}" SchemaVersion="110">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{BCFA7757-E101-4087-80FA-133F9D583B9C}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{BCFA7757-E101-4087-80FA-133F9D583B9C}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="AMB" ID="{78CFEB09-AC59-485B-A7DB-24E5B262EF39}">
+					<ObjectInclusionList>
+						<ObjectRef Name="AMB" ID="{5BCE8836-E841-49AE-9DA3-8CBECFA2CFB4}" WorkUnitID="{4680C124-B480-4380-B28D-71AAF9E874E3}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="FOLEY" ID="{F31836B8-B992-401B-980E-A11CDD4F16FA}">
+					<ObjectInclusionList>
+						<ObjectRef Name="FOLEY" ID="{6007A8B8-E7A0-4D0C-87D1-8B9BCA87DC28}" WorkUnitID="{4680C124-B480-4380-B28D-71AAF9E874E3}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="SFX" ID="{BA6B2481-2F4E-4D2B-BF32-9926A4A699D9}">
+					<ObjectInclusionList>
+						<ObjectRef Name="SFX" ID="{9FCDCDEC-43C2-47C7-BF89-1969A76A84AA}" WorkUnitID="{4680C124-B480-4380-B28D-71AAF9E874E3}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="UI" ID="{DFA8E0AB-D511-4B2C-93CE-3D5677F26917}">
+					<ObjectInclusionList>
+						<ObjectRef Name="UI" ID="{8B49C8AB-DA11-4ACD-B1C1-180A4FBD75C3}" WorkUnitID="{4680C124-B480-4380-B28D-71AAF9E874E3}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="VOICE" ID="{201901E9-8C37-4C8E-86DE-B0E3BEF1D0EF}">
+					<ObjectInclusionList>
+						<ObjectRef Name="VOICE" ID="{B86E1CDC-511B-4CAE-82C8-223F8820A9F8}" WorkUnitID="{4680C124-B480-4380-B28D-71AAF9E874E3}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

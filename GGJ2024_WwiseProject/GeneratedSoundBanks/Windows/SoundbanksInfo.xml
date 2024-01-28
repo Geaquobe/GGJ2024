@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="247557814" Type="User" Language="SFX" Hash="{70880975-9AE1-4CA3-E868-211AB7FBDA89}">
+			<ShortName>FOLEY</ShortName>
+			<Path>FOLEY.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{452CA605-563F-4392-D817-A85F57950250}">
+			<ShortName>SFX</ShortName>
+			<Path>SFX.bnk</Path>
+			<Media>
+				<File Id="3498284" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Coussin_Throw_02.wav</ShortName>
+					<CachePath>SFX/SFX_Coussin_Throw_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="4891831" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Dildo_Grab_02.wav</ShortName>
+					<CachePath>SFX/SFX_Dildo_Grab_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="19274611" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Pistolet_Throw_01.wav</ShortName>
+					<CachePath>SFX/SFX_Pistolet_Throw_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="28953194" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Pistolet_Shot_02.wav</ShortName>
+					<CachePath>SFX/SFX_Pistolet_Shot_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="31667376" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Loupe_Throw_02.wav</ShortName>
+					<CachePath>SFX/SFX_Loupe_Throw_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="61601769" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Coussin_Grab_03.wav</ShortName>
+					<CachePath>SFX/SFX_Coussin_Grab_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="61707168" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Tapis_Cut.wav</ShortName>
+					<CachePath>SFX/SFX_Tapis_Cut_10C4C929.wem</CachePath>
+				</File>
+				<File Id="95116937" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Death_Electricity_Mono.wav</ShortName>
+					<CachePath>SFX/SFX_Death_Electricity_Mono_10C4C929.wem</CachePath>
+				</File>
+				<File Id="104865410" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Pistolet_Throw_02.wav</ShortName>
+					<CachePath>SFX/SFX_Pistolet_Throw_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="122933307" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Loupe_Grab_03.wav</ShortName>
+					<CachePath>SFX/SFX_Loupe_Grab_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="127300473" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MC_Assommer_01.wav</ShortName>
+					<CachePath>SFX/SFX_MC_Assommer_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="158556372" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MC_Assommer_02.wav</ShortName>
+					<CachePath>SFX/SFX_MC_Assommer_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="163974530" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Dildo_Impact_01.wav</ShortName>
+					<CachePath>SFX/SFX_Dildo_Impact_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="171522072" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Dildo_Impact_02.wav</ShortName>
+					<CachePath>SFX/SFX_Dildo_Impact_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="228045458" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Common_Grab_04.wav</ShortName>
+					<CachePath>SFX/SFX_Common_Grab_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="238252246" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Loupe_Impact_03.wav</ShortName>
+					<CachePath>SFX/SFX_Loupe_Impact_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="280856343" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Coussin_Grab_01.wav</ShortName>
+					<CachePath>SFX/SFX_Coussin_Grab_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="292433357" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Dildo_Throw_02.wav</ShortName>
+					<CachePath>SFX/SFX_Dildo_Throw_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="300111891" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Papier_Throw_01.wav</ShortName>
+					<CachePath>SFX/SFX_Papier_Throw_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="329676638" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Loupe_Impact_02.wav</ShortName>
+					<CachePath>SFX/SFX_Loupe_Impact_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="339037742" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Drink_01.wav</ShortName>
+					<CachePath>SFX/SFX_Drink_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="348078826" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MC_Bodyfall_02.wav</ShortName>
+					<CachePath>SFX/SFX_MC_Bodyfall_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="398717632" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Loupe_Impact_01.wav</ShortName>
+					<CachePath>SFX/SFX_Loupe_Impact_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="409645764" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Drink_02.wav</ShortName>
+					<CachePath>SFX/SFX_Drink_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="426132095" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Epee_Slash_03.wav</ShortName>
+					<CachePath>SFX/SFX_Epee_Slash_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="436931983" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Dildo_Slash_01.wav</ShortName>
+					<CachePath>SFX/SFX_Dildo_Slash_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="439069778" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Papier_Grab_03.wav</ShortName>
+					<CachePath>SFX/SFX_Papier_Grab_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="443992036" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Epee_Grab_03.wav</ShortName>
+					<CachePath>SFX/SFX_Epee_Grab_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="457465856" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Loupe_Grab_01.wav</ShortName>
+					<CachePath>SFX/SFX_Loupe_Grab_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="469372011" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Coussin_Throw_01.wav</ShortName>
+					<CachePath>SFX/SFX_Coussin_Throw_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="477763830" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Eat.wav</ShortName>
+					<CachePath>SFX/SFX_Eat_10C4C929.wem</CachePath>
+				</File>
+				<File Id="525890872" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Pistolet_Grab_04.wav</ShortName>
+					<CachePath>SFX/SFX_Pistolet_Grab_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="527444255" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Loupe_Throw_03.wav</ShortName>
+					<CachePath>SFX/SFX_Loupe_Throw_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="546044165" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Coussin_Grab_02.wav</ShortName>
+					<CachePath>SFX/SFX_Coussin_Grab_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="554648406" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Dildo_Grab_01.wav</ShortName>
+					<CachePath>SFX/SFX_Dildo_Grab_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="559497439" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Epee_Grab_01.wav</ShortName>
+					<CachePath>SFX/SFX_Epee_Grab_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="591953631" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Loupe_Throw_01.wav</ShortName>
+					<CachePath>SFX/SFX_Loupe_Throw_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="618158794" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Coussin_Impact_01.wav</ShortName>
+					<CachePath>SFX/SFX_Coussin_Impact_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="644768598" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Dildo_Throw_01.wav</ShortName>
+					<CachePath>SFX/SFX_Dildo_Throw_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="669672942" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Common_Grab_02.wav</ShortName>
+					<CachePath>SFX/SFX_Common_Grab_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="676081892" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Pistolet_Shot_01.wav</ShortName>
+					<CachePath>SFX/SFX_Pistolet_Shot_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="685567305" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Pistolet_Grab_01.wav</ShortName>
+					<CachePath>SFX/SFX_Pistolet_Grab_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="703371569" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Loupe_Grab_02.wav</ShortName>
+					<CachePath>SFX/SFX_Loupe_Grab_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="712152187" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Dildo_Slash_02.wav</ShortName>
+					<CachePath>SFX/SFX_Dildo_Slash_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="723609409" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Dildo_Grab_03.wav</ShortName>
+					<CachePath>SFX/SFX_Dildo_Grab_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="737127240" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Epee_Impact_03.wav</ShortName>
+					<CachePath>SFX/SFX_Epee_Impact_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="748070566" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Epee_Throw_02.wav</ShortName>
+					<CachePath>SFX/SFX_Epee_Throw_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="752334588" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Common_Grab_01.wav</ShortName>
+					<CachePath>SFX/SFX_Common_Grab_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="754522931" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Coussin_Impact_03.wav</ShortName>
+					<CachePath>SFX/SFX_Coussin_Impact_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="763570752" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Papier_Grab_02.wav</ShortName>
+					<CachePath>SFX/SFX_Papier_Grab_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="770651615" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Epee_Grab_02.wav</ShortName>
+					<CachePath>SFX/SFX_Epee_Grab_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="778558010" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Pistolet_Impact_02.wav</ShortName>
+					<CachePath>SFX/SFX_Pistolet_Impact_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="793613413" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Coussin_Impact_02.wav</ShortName>
+					<CachePath>SFX/SFX_Coussin_Impact_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="793947884" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MC_Bodyfall_01.wav</ShortName>
+					<CachePath>SFX/SFX_MC_Bodyfall_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="802659572" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Epee_Throw_01.wav</ShortName>
+					<CachePath>SFX/SFX_Epee_Throw_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="856472085" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Dildo_Impact_03.wav</ShortName>
+					<CachePath>SFX/SFX_Dildo_Impact_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="872422641" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Epee_Impact_02.wav</ShortName>
+					<CachePath>SFX/SFX_Epee_Impact_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="889122138" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Pistolet_Shot_03.wav</ShortName>
+					<CachePath>SFX/SFX_Pistolet_Shot_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="891327419" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Pistolet_Grab_02.wav</ShortName>
+					<CachePath>SFX/SFX_Pistolet_Grab_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="893763206" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Epee_Impact_01.wav</ShortName>
+					<CachePath>SFX/SFX_Epee_Impact_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="901296092" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Pistolet_Impact_01.wav</ShortName>
+					<CachePath>SFX/SFX_Pistolet_Impact_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="908649419" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Pistolet_Impact_03.wav</ShortName>
+					<CachePath>SFX/SFX_Pistolet_Impact_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="923310830" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Papier_Grab_01.wav</ShortName>
+					<CachePath>SFX/SFX_Papier_Grab_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="923658107" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Papier_Throw_02.wav</ShortName>
+					<CachePath>SFX/SFX_Papier_Throw_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="937034417" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MC_Assommer_03.wav</ShortName>
+					<CachePath>SFX/SFX_MC_Assommer_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="938781848" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Pistolet_Grab_03.wav</ShortName>
+					<CachePath>SFX/SFX_Pistolet_Grab_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="939885675" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Epee_Slash_01.wav</ShortName>
+					<CachePath>SFX/SFX_Epee_Slash_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="943547553" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Pistolet_Throw_03.wav</ShortName>
+					<CachePath>SFX/SFX_Pistolet_Throw_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="990302476" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Epee_Throw_03.wav</ShortName>
+					<CachePath>SFX/SFX_Epee_Throw_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="998327177" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Loupe_Break.wav</ShortName>
+					<CachePath>SFX/SFX_Loupe_Break_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1005686979" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Epee_Slash_02.wav</ShortName>
+					<CachePath>SFX/SFX_Epee_Slash_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1042324440" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Common_Grab_03.wav</ShortName>
+					<CachePath>SFX/SFX_Common_Grab_03_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="383418027" Name="Play_SFX_Assommer" DurationType="OneShot" DurationMin="0.30227572" DurationMax="0.5783565">
+					<MediaRefs>
+						<MediaRef Id="127300473"/>
+						<MediaRef Id="158556372"/>
+						<MediaRef Id="937034417"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2047017905" Name="Play_SFX_Bodyfall" DurationType="OneShot" DurationMin="0.5224737" DurationMax="0.6757388">
+					<MediaRefs>
+						<MediaRef Id="348078826"/>
+						<MediaRef Id="793947884"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1306196216" Name="Play_SFX_Commun_Grab" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.24861255" DurationMax="0.46801785">
+					<MediaRefs>
+						<MediaRef Id="228045458"/>
+						<MediaRef Id="669672942"/>
+						<MediaRef Id="752334588"/>
+						<MediaRef Id="1042324440"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2726606975" Name="Play_SFX_Coussin_Grab" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.39548331" DurationMax="0.4517948">
+					<MediaRefs>
+						<MediaRef Id="61601769"/>
+						<MediaRef Id="280856343"/>
+						<MediaRef Id="546044165"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="503920167" Name="Play_SFX_Coussin_Impact" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.24257568" DurationMax="0.29563436">
+					<MediaRefs>
+						<MediaRef Id="618158794"/>
+						<MediaRef Id="754522931"/>
+						<MediaRef Id="793613413"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1947971867" Name="Play_SFX_Coussin_Throw" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.19868553" DurationMax="0.4452173">
+					<MediaRefs>
+						<MediaRef Id="3498284"/>
+						<MediaRef Id="469372011"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3895751602" Name="Play_SFX_Death_Electricity" DurationType="OneShot" DurationMin="1.7714375" DurationMax="1.7714375">
+					<MediaRefs>
+						<MediaRef Id="95116937"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1223086071" Name="Play_SFX_Dildo_Grab" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.2584839" DurationMax="0.42115867">
+					<MediaRefs>
+						<MediaRef Id="4891831"/>
+						<MediaRef Id="554648406"/>
+						<MediaRef Id="723609409"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2289151103" Name="Play_SFX_Dildo_Impact" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.21309927" DurationMax="0.24436076">
+					<MediaRefs>
+						<MediaRef Id="163974530"/>
+						<MediaRef Id="171522072"/>
+						<MediaRef Id="856472085"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2762880728" Name="Play_SFX_Dildo_Slash" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.47992072" DurationMax="0.53869283">
+					<MediaRefs>
+						<MediaRef Id="436931983"/>
+						<MediaRef Id="712152187"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3088255043" Name="Play_SFX_Dildo_Throw" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.47193712" DurationMax="0.53012884">
+					<MediaRefs>
+						<MediaRef Id="292433357"/>
+						<MediaRef Id="644768598"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="185603492" Name="Play_SFX_Drink" DurationType="OneShot" DurationMin="0.7673894" DurationMax="1.4180694">
+					<MediaRefs>
+						<MediaRef Id="339037742"/>
+						<MediaRef Id="409645764"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1711751912" Name="Play_SFX_Eat" DurationType="OneShot" DurationMin="0.44002238" DurationMax="0.4939085">
+					<MediaRefs>
+						<MediaRef Id="477763830"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2246561112" Name="Play_SFX_Epee_Grab" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.6216395" DurationMax="1.0594631">
+					<MediaRefs>
+						<MediaRef Id="443992036"/>
+						<MediaRef Id="559497439"/>
+						<MediaRef Id="770651615"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1623677600" Name="Play_SFX_Epee_Impact" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.5800697" DurationMax="0.6941691">
+					<MediaRefs>
+						<MediaRef Id="737127240"/>
+						<MediaRef Id="872422641"/>
+						<MediaRef Id="893763206"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="533704501" Name="Play_SFX_Epee_Slash" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.47193712" DurationMax="0.5297316">
+					<MediaRefs>
+						<MediaRef Id="426132095"/>
+						<MediaRef Id="939885675"/>
+						<MediaRef Id="1005686979"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="747977262" Name="Play_SFX_Epee_Throw" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.47193712" DurationMax="0.5297316">
+					<MediaRefs>
+						<MediaRef Id="748070566"/>
+						<MediaRef Id="802659572"/>
+						<MediaRef Id="990302476"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="358670559" Name="Play_SFX_Loupe_Break" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.642857" DurationMax="0.72158265">
+					<MediaRefs>
+						<MediaRef Id="998327177"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2235098404" Name="Play_SFX_Loupe_Grab" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.24861255" DurationMax="0.46801785">
+					<MediaRefs>
+						<MediaRef Id="122933307"/>
+						<MediaRef Id="457465856"/>
+						<MediaRef Id="703371569"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="378057844" Name="Play_SFX_Loupe_Impact" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.19351389" DurationMax="0.22679132">
+					<MediaRefs>
+						<MediaRef Id="238252246"/>
+						<MediaRef Id="329676638"/>
+						<MediaRef Id="398717632"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2764374482" Name="Play_SFX_Loupe_Throw" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.40197244" DurationMax="0.5297316">
+					<MediaRefs>
+						<MediaRef Id="31667376"/>
+						<MediaRef Id="527444255"/>
+						<MediaRef Id="591953631"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1406297036" Name="Play_SFX_Papier_Grab" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.4080093" DurationMax="0.60654265">
+					<MediaRefs>
+						<MediaRef Id="439069778"/>
+						<MediaRef Id="763570752"/>
+						<MediaRef Id="923310830"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="706616106" Name="Play_SFX_Papier_Throw" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.29393816" DurationMax="0.4452173">
+					<MediaRefs>
+						<MediaRef Id="300111891"/>
+						<MediaRef Id="923658107"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4037183997" Name="Play_SFX_Pistolet_Grab" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.24363755" DurationMax="0.40855548">
+					<MediaRefs>
+						<MediaRef Id="525890872"/>
+						<MediaRef Id="685567305"/>
+						<MediaRef Id="891327419"/>
+						<MediaRef Id="938781848"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2958712709" Name="Play_SFX_Pistolet_Impact" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.061292835" DurationMax="0.10612289">
+					<MediaRefs>
+						<MediaRef Id="778558010"/>
+						<MediaRef Id="901296092"/>
+						<MediaRef Id="908649419"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2562833167" Name="Play_SFX_Pistolet_Shot" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.112183385" DurationMax="0.17278078">
+					<MediaRefs>
+						<MediaRef Id="28953194"/>
+						<MediaRef Id="676081892"/>
+						<MediaRef Id="889122138"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2404878845" Name="Play_SFX_Pistolet_Throw" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.26951542" DurationMax="0.5297316">
+					<MediaRefs>
+						<MediaRef Id="19274611"/>
+						<MediaRef Id="104865410"/>
+						<MediaRef Id="943547553"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="879869776" Name="Play_SFX_Tapis_Cut" MaxAttenuation="5" DurationType="OneShot" DurationMin="1.7504148" DurationMax="1.9647745">
+					<MediaRefs>
+						<MediaRef Id="61707168"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{05EF5B5B-F974-94A4-FAD4-4D447B76FAA0}">
+			<ShortName>AMB</ShortName>
+			<Path>AMB.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{A9CC0AC5-7CE8-8F1A-7354-D86D18A08085}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="3461965729" Name="RTPC_Slider_Volume"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="4026346633" Name="Vision">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="1543097833" Name="Baby"/>
+						<State Id="2752733175" Name="Adult"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<AcousticTextures>
+				<AcousticTexture Id="504532776" Name="Brick">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="12"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="18"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="23"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="513139656" Name="Mountain">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="841620460" Name="Concrete">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="14"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1755085759" Name="Wood_Deep">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="1"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="8"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="20"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1873957695" Name="Anechoic">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1970351858" Name="Fabric">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="3"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="13"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="48"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="72"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2058049674" Name="Wood">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="32"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="25"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="20"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2412606308" Name="Carpet">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="46"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="45"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="76"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2637588553" Name="Tile">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="67"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="41"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="12"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2928161104" Name="Curtains">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="7"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="60"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="84"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="3195498748" Name="Cork_Tiles">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="14"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="30"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="73"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="3670307564" Name="Drywall">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="2"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="4168643977" Name="Acoustic_Banner">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="37"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="4262522749" Name="Wood_Bright">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="32"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="25"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="10"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="9"/>
+					</Properties>
+				</AcousticTexture>
+			</AcousticTextures>
+		</SoundBank>
+		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{736452D1-0DCF-6CE7-7006-D60C27662B66}">
+			<ShortName>UI</ShortName>
+			<Path>UI.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3170124113" Type="User" Language="SFX" Hash="{E4D7CA13-2EF0-8C65-3F09-A68E9AC0C6F1}">
+			<ShortName>VOICE</ShortName>
+			<Path>VOICE.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{1C844BDA-2F91-F42C-D1B0-1A2BE15ABF54}</FileHash>
+</SoundBanksInfo>
