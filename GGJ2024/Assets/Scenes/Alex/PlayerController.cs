@@ -95,6 +95,7 @@ public class PlayerController : MonoBehaviour
             heldObj.layer = LayerNumber; //change the object layer to the holdLayer
             //make sure object doesnt collide with player, it can cause weird bugs
             Physics.IgnoreCollision(heldObj.GetComponent<Collider>(), this.GetComponentInChildren<CapsuleCollider>(), true);
+            pickUpObj.transform.GetComponent<Object>().Grab();
         }
     }
 
@@ -147,6 +148,7 @@ void ThrowObject()
         heldObjRb.isKinematic = false;
         heldObj.transform.parent = null;
         heldObjRb.AddForce(objectCamera.forward * throwForce);
+        heldObjRb.AddTorque(objectCamera.forward * throwForce * 0.01f/* + objectCamera.right * throwForce * 0.01f + objectCamera.up * throwForce * 0.01f*/);
         heldObj = null;
     }
     void StopClipping() //function only called when dropping/throwing
