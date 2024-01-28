@@ -224,18 +224,100 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-					</ChildrenList>
-				</Folder>
-				<Folder Name="UI" ID="{8B49C8AB-DA11-4ACD-B1C1-180A4FBD75C3}" ShortID="812477595"/>
-				<Folder Name="VOICE" ID="{B86E1CDC-511B-4CAE-82C8-223F8820A9F8}" ShortID="1026406509"/>
-				<Folder Name="TEST" ID="{890C76C2-8E87-499B-B584-CF80667F764B}" ShortID="122297095">
-					<ChildrenList>
-						<Event Name="TEST" ID="{964A863F-66D0-4361-B0BE-75D6C88EE027}">
+						<Event Name="Play_SFX_Bodyfall" ID="{F623306B-B303-457D-8CEC-BF029F00B7A9}">
 							<ChildrenList>
-								<Action Name="" ID="{2F60AFDA-1D73-4D5B-A56C-BF3F49B16C15}" ShortID="878497993">
+								<Action Name="" ID="{04D72BB8-0CBC-4E73-BE84-4759E74BFB07}" ShortID="824607145">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="SFX_Enemy_Spawn_Magic_A_02" ID="{390AC530-29AF-445F-877E-41F6B7ABDFDA}" WorkUnitID="{F150F117-97FF-4AED-ADEC-80E5D964E3CB}"/>
+											<ObjectRef Name="Bodyfall" ID="{4916CF8B-CF44-49EF-A74E-755A7B43DB42}" WorkUnitID="{F150F117-97FF-4AED-ADEC-80E5D964E3CB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Assommer" ID="{2336E36A-82F1-42A5-8222-CCBE084DE480}">
+							<ChildrenList>
+								<Action Name="" ID="{774CA7A1-1B0E-4228-AAAF-2CD22E8CB65D}" ShortID="712771805">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Assommer" ID="{21996ED7-FCFE-4DDB-BB46-4078D2BF9328}" WorkUnitID="{F150F117-97FF-4AED-ADEC-80E5D964E3CB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Tapis_Cut" ID="{4905ECDB-A03C-4DB1-8812-A4B0080D917F}">
+							<ChildrenList>
+								<Action Name="" ID="{263673D3-45A0-4EEC-93C8-C9546CFB1B9C}" ShortID="580974760">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Tapis_Cut" ID="{ED762235-1DDD-4022-9FFD-F37078674EA7}" WorkUnitID="{F150F117-97FF-4AED-ADEC-80E5D964E3CB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Drink" ID="{E387FC68-1866-42E5-ACC8-20B07ED57C64}">
+							<ChildrenList>
+								<Action Name="" ID="{E743040A-11EA-4B65-BAC8-DF48A35E43FF}" ShortID="885145767">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Drink" ID="{DA24CCDC-6BC6-4EA6-B60D-030909CD918E}" WorkUnitID="{F150F117-97FF-4AED-ADEC-80E5D964E3CB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Eat" ID="{198A720E-D47E-44B6-9F7A-42C26A34389A}">
+							<ChildrenList>
+								<Action Name="" ID="{D77569D5-E2B7-4084-914A-6655F268AE69}" ShortID="841243445">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Eat" ID="{24C49945-B29B-43E1-8C26-52915A5FFCEF}" WorkUnitID="{F150F117-97FF-4AED-ADEC-80E5D964E3CB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Pistolet_Shot" ID="{CD130FB1-B862-43B5-8402-C09760A510D8}">
+							<ChildrenList>
+								<Action Name="" ID="{3C58D96E-EEFD-4C07-AB80-14B817C7F037}" ShortID="4200215">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Pistolet_Shot" ID="{82990D39-9CB6-4591-BB73-B903BF991844}" WorkUnitID="{F150F117-97FF-4AED-ADEC-80E5D964E3CB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Pistolet_Throw" ID="{7D6F32B1-699B-4E25-BFDB-A2EF807D707C}">
+							<ChildrenList>
+								<Action Name="" ID="{3B108F55-13CB-49CD-A94C-87CE08394684}" ShortID="229280913">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Pistolet_Throw" ID="{A5A5AE0A-1F11-439E-9E6A-537EA60E3D3A}" WorkUnitID="{F150F117-97FF-4AED-ADEC-80E5D964E3CB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Pistolet_Impact" ID="{0CD52561-737B-47C2-AC61-936E3C0DA0C7}">
+							<ChildrenList>
+								<Action Name="" ID="{AA84D896-DB39-4589-907A-53DA29914628}" ShortID="271989852">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Pistolet_Impact" ID="{151269B7-3305-4579-9F44-F85D38B9B377}" WorkUnitID="{F150F117-97FF-4AED-ADEC-80E5D964E3CB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Pistolet_Grab" ID="{1BECE310-4F4F-421C-B604-536758B21697}">
+							<ChildrenList>
+								<Action Name="" ID="{EFC8AB33-8D09-441D-9AED-99B2F00D7B30}" ShortID="947433219">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Pistolet_Grab" ID="{6B31A612-5FEA-4469-9ED5-B4FDF5D87DCC}" WorkUnitID="{F150F117-97FF-4AED-ADEC-80E5D964E3CB}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -243,6 +325,8 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="UI" ID="{8B49C8AB-DA11-4ACD-B1C1-180A4FBD75C3}" ShortID="812477595"/>
+				<Folder Name="VOICE" ID="{B86E1CDC-511B-4CAE-82C8-223F8820A9F8}" ShortID="1026406509"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

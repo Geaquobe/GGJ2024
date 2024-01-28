@@ -1,3 +1,11 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	4026346633	Vision			\Default Work Unit\Vision	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Vision			
+	1543097833	Baby	Vision			
+	2752733175	Adult	Vision			
+
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	504532776	Brick			\Factory Acoustic Textures\Textures\Brick	
 	513139656	Mountain			\Factory Acoustic Textures\Textures\Mountain	
