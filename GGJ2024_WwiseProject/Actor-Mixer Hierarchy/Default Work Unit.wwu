@@ -1034,6 +1034,713 @@
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
+										<ActorMixer Name="Commun_Wood" ID="{D1268521-2BB5-48B2-B302-E7A2B661F9B1}" ShortID="491266397">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="Commun_Wood_Grab" ID="{04EDA10B-7C40-4AC6-8C41-AB1AD7BE900E}" ShortID="174401288">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="SFX_Common_Wood_Grab_01" ID="{06D22181-75D0-4443-B999-36D695F079AE}" ShortID="424904763">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_Common_Wood_Grab_01" ID="{189A6427-94CB-43C8-AB0F-D1FDAC2CF165}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_Common_Wood_Grab_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="272227057"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_Common_Wood_Grab_01" ID="{189A6427-94CB-43C8-AB0F-D1FDAC2CF165}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SFX_Common_Wood_Grab_02" ID="{29BCD72B-8ACC-480B-A733-437CFF8F470F}" ShortID="378885586">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_Common_Wood_Grab_02" ID="{3AE6216A-20A4-4448-A446-C51F9BC5F354}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_Common_Wood_Grab_02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="621080558"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_Common_Wood_Grab_02" ID="{3AE6216A-20A4-4448-A446-C51F9BC5F354}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="Commun_Wood_Impact" ID="{0AA93432-4329-4C1C-8CB4-3DEFE6BD2F06}" ShortID="194466711">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>4</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="SFX_Common_Wood_Impact_01" ID="{71BB2EB9-51E2-4450-A5A5-5AB95D3D61A7}" ShortID="969973757">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_Common_Wood_Impact_01" ID="{B86267B0-315E-4E04-9A1D-7EDEF5CA3E6C}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_Common_Wood_Impact_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="901067669"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_Common_Wood_Impact_01" ID="{B86267B0-315E-4E04-9A1D-7EDEF5CA3E6C}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SFX_Common_Wood_Impact_02" ID="{2869BDAE-716C-439B-9FBD-D9380FED3771}" ShortID="641983378">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_Common_Wood_Impact_02" ID="{28A593C9-B1EB-430C-8406-104CA720D36A}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_Common_Wood_Impact_02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="907675897"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_Common_Wood_Impact_02" ID="{28A593C9-B1EB-430C-8406-104CA720D36A}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SFX_Common_Wood_Impact_03" ID="{860671A0-C02F-432F-AA5D-7E9AECC9A84B}" ShortID="330644083">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_Common_Wood_Impact_03" ID="{3ED04B3B-189A-4A43-B431-CC3928EA32AD}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_Common_Wood_Impact_03.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="962657478"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_Common_Wood_Impact_03" ID="{3ED04B3B-189A-4A43-B431-CC3928EA32AD}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="Commun_Wood_Throw" ID="{A1E66A82-1664-4EA1-B98C-710921A5A03D}" ShortID="113617832">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="SFX_Common_Wood_Throw_01" ID="{D063A6BA-0A6F-4E8E-B0F4-67328CF7768A}" ShortID="119283462">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_Common_Wood_Throw_01" ID="{C43563F9-872A-4B05-A7BA-B7A6006EAAB7}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_Common_Wood_Throw_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="51507256"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_Common_Wood_Throw_01" ID="{C43563F9-872A-4B05-A7BA-B7A6006EAAB7}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</ActorMixer>
+										<ActorMixer Name="Commun_Glass" ID="{25931280-5B7C-4BB8-931C-EF984112944F}" ShortID="238859403">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="Commun_Glass_Grab" ID="{AA397AC6-5FB7-4712-B85A-DE3DEC5034E2}" ShortID="678802166">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>5</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="SFX_Common_Glass_Grab_01" ID="{134AAFD7-EAFF-46D3-93FE-4D0C9BAA5CDC}" ShortID="41032434">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_Common_Glass_Grab_01" ID="{FB9C789E-836E-4B81-A73B-5B9BDADB48C0}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_Common_Glass_Grab_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="529841986"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_Common_Glass_Grab_01" ID="{FB9C789E-836E-4B81-A73B-5B9BDADB48C0}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SFX_Common_Glass_Grab_02" ID="{0F38B1C1-5149-4736-84C3-E11FAAD496C2}" ShortID="844974402">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_Common_Glass_Grab_02" ID="{FD30A462-909F-4929-B357-4936B28F3240}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_Common_Glass_Grab_02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="316004773"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_Common_Glass_Grab_02" ID="{FD30A462-909F-4929-B357-4936B28F3240}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SFX_Common_Glass_Grab_03" ID="{38117487-7568-43C6-A041-424A3BDAE6F3}" ShortID="6860759">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_Common_Glass_Grab_03" ID="{A2D21939-FCAE-4B72-A53D-4E5F295B9DDF}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_Common_Glass_Grab_03.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="154662741"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_Common_Glass_Grab_03" ID="{A2D21939-FCAE-4B72-A53D-4E5F295B9DDF}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="Commun_Glass_Throw" ID="{8D242293-4ABE-4CE3-B594-5BEC3424E24F}" ShortID="566423177">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>2</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="SFX_Common_Glass_Throw_01" ID="{8C1B6CAD-F3D0-46D1-8080-42F903A6BC74}" ShortID="774173012">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_Common_Glass_Throw_01" ID="{E85FE31C-AB28-462F-8D90-A86237D472A0}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_Common_Glass_Throw_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="620790624"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_Common_Glass_Throw_01" ID="{E85FE31C-AB28-462F-8D90-A86237D472A0}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SFX_Common_Glass_Throw_02" ID="{FDC98983-ACE5-4FE0-BD82-3C4FED1BB935}" ShortID="61454278">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_Common_Glass_Throw_02" ID="{B1282A9F-68C6-4594-98BA-DA7649ECAAE3}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_Common_Glass_Throw_02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="956115262"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_Common_Glass_Throw_02" ID="{B1282A9F-68C6-4594-98BA-DA7649ECAAE3}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="Commun_Glass_Impact" ID="{BCC22376-8908-467B-8A0C-59EC8BCC1750}" ShortID="832492114">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>2</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="SFX_Common_Glass_Impact_01" ID="{460E1BFF-586D-4003-A3B1-C8664D8019DC}" ShortID="66573611">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_Common_Glass_Impact_01" ID="{725CFB01-CC82-48A4-BBCD-6F1F799962BF}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_Common_Glass_Impact_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="970635494"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_Common_Glass_Impact_01" ID="{725CFB01-CC82-48A4-BBCD-6F1F799962BF}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SFX_Common_Glass_Impact_02" ID="{D64F08E7-F384-49FC-819C-77E2EE9900C6}" ShortID="1036799362">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_Common_Glass_Impact_02" ID="{4238901A-8F5B-4A56-8A42-E32277D1663B}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_Common_Glass_Impact_02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="963735254"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_Common_Glass_Impact_02" ID="{4238901A-8F5B-4A56-8A42-E32277D1663B}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SFX_Common_Glass_Impact_03" ID="{25B9F926-B1D9-4882-9E16-88AFE5E475B5}" ShortID="501018780">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_Common_Glass_Impact_03" ID="{19697F4D-67B6-4EE3-B933-48C30C4A6800}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_Common_Glass_Impact_03.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="203283862"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_Common_Glass_Impact_03" ID="{19697F4D-67B6-4EE3-B933-48C30C4A6800}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SFX_Common_Glass_Impact_04" ID="{03AC3440-C9A1-4DF5-823A-6660D89AA1AC}" ShortID="109440335">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_Common_Glass_Impact_04" ID="{13C52FD2-CFB5-4270-AE49-28A846EFB6C1}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_Common_Glass_Impact_04.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="862257933"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_Common_Glass_Impact_04" ID="{13C52FD2-CFB5-4270-AE49-28A846EFB6C1}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</ActorMixer>
+										<ActorMixer Name="Commun_Metal" ID="{A746A79F-443D-4EA8-915D-00EA9D02A1FE}" ShortID="769053428">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="Commun_Metal_Grab" ID="{0D799845-012A-4804-ABA7-3D05A4F34BBC}" ShortID="196967169">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>3</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="SFX_Common_Metal_Grab_01" ID="{82D75506-21A2-463F-92B7-3E3A3FD70B8F}" ShortID="1040711575">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_Common_Metal_Grab_01" ID="{9174E1CA-1ADD-45E8-8C3F-4D09361D1C9B}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_Common_Metal_Grab_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="100643997"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_Common_Metal_Grab_01" ID="{9174E1CA-1ADD-45E8-8C3F-4D09361D1C9B}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SFX_Common_Metal_Grab_02" ID="{AE30C540-B69A-4129-902C-740A36F49E80}" ShortID="290590980">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_Common_Metal_Grab_02" ID="{9A5F1D70-E2AE-441E-84E2-ABC267E7A345}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_Common_Metal_Grab_02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="573696177"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_Common_Metal_Grab_02" ID="{9A5F1D70-E2AE-441E-84E2-ABC267E7A345}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="Commun_Metal_Impact" ID="{81AEB180-9776-4A43-BB0D-26A6F6BBF13E}" ShortID="204862847">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="SFX_Common_Metal_Impact_01" ID="{684FE25A-75FB-4AFC-8EE9-BAB882ED2461}" ShortID="460097288">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_Common_Metal_Impact_01" ID="{33AC354A-25F0-49A3-BED9-CF3C481243E2}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_Common_Metal_Impact_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="484781974"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_Common_Metal_Impact_01" ID="{33AC354A-25F0-49A3-BED9-CF3C481243E2}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SFX_Common_Metal_Impact_02" ID="{3EB45F1F-632C-457A-B9F2-391AB35EABB8}" ShortID="42592694">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_Common_Metal_Impact_02" ID="{F1FC48D1-EFF0-433B-BAF4-53E388ABB9B1}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_Common_Metal_Impact_02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="1063250429"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_Common_Metal_Impact_02" ID="{F1FC48D1-EFF0-433B-BAF4-53E388ABB9B1}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SFX_Common_Metal_Impact_03" ID="{2345F91B-5AB7-4625-BBCD-E72274D3B887}" ShortID="270425708">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_Common_Metal_Impact_03" ID="{1B1609AA-0438-4B70-8E3F-E4EE76EB3AF0}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_Common_Metal_Impact_03.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="304127757"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_Common_Metal_Impact_03" ID="{1B1609AA-0438-4B70-8E3F-E4EE76EB3AF0}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SFX_Common_Metal_Impact_04" ID="{E9119C06-0F3D-411A-8FC6-9DC580A2C382}" ShortID="553894642">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_Common_Metal_Impact_04" ID="{B74F2897-7859-4D6C-B459-5E4C158BFC4E}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_Common_Metal_Impact_04.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="809771325"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_Common_Metal_Impact_04" ID="{B74F2897-7859-4D6C-B459-5E4C158BFC4E}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="Commun_Metal_Throw" ID="{A7FB0589-E80F-4038-8322-F868D37B6CCC}" ShortID="207552543">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="SFX_Common_Metal_Throw_01" ID="{8722654B-5E90-4187-B341-64D2C9AAD50A}" ShortID="570953763">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_Common_Metal_Throw_01" ID="{72FC5ACC-F490-400E-8D70-B4D3A1E95398}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_Common_Metal_Throw_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="174984046"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_Common_Metal_Throw_01" ID="{72FC5ACC-F490-400E-8D70-B4D3A1E95398}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SFX_Common_Metal_Throw_02" ID="{423918FD-7A0D-4B5C-B1B9-51475115EBC9}" ShortID="1068168791">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_Common_Metal_Throw_02" ID="{3A42A36E-8A5F-48A5-8FC8-78BFF743D94B}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_Common_Metal_Throw_02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="2151190"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_Common_Metal_Throw_02" ID="{3A42A36E-8A5F-48A5-8FC8-78BFF743D94B}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SFX_Common_Metal_Throw_03" ID="{878D4ED3-96F5-495A-A3FF-77B8FF456F45}" ShortID="947624293">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="SFX_Common_Metal_Throw_03" ID="{81325C7B-8859-43E2-A470-D56DDE4558C1}">
+																	<Language>SFX</Language>
+																	<AudioFile>SFX_Common_Metal_Throw_03.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="660542168"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="SFX_Common_Metal_Throw_03" ID="{81325C7B-8859-43E2-A470-D56DDE4558C1}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</ActorMixer>
 									</ChildrenList>
 								</ActorMixer>
 								<ActorMixer Name="Coussin" ID="{B86192EC-25CD-4CC8-A043-1A8D88768502}" ShortID="558552456">
@@ -2679,6 +3386,239 @@
 													</ChildrenList>
 													<ActiveSourceList>
 														<ActiveSource Name="SFX_Pistolet_Shot_03" ID="{7E85FF41-03AC-462B-A2CA-8589E976F64A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</ActorMixer>
+								<ActorMixer Name="Doudou" ID="{A655D398-EC32-46EF-960D-94FB93F1FFF3}" ShortID="958129352">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Doudou_Grab" ID="{A193C0D1-9A70-41A2-8BDC-BDADAA8DF8A8}" ShortID="636133638">
+											<PropertyList>
+												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_Doudou_Grab_01" ID="{C422EE5A-6B36-42F2-97F9-AF5C52C2298E}" ShortID="442118141">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Doudou_Grab_01" ID="{614E1EE0-46A9-49E1-A665-4F4DAE866C9D}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Doudou_Grab_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="132250416"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Doudou_Grab_01" ID="{614E1EE0-46A9-49E1-A665-4F4DAE866C9D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Doudou_Grab_02" ID="{2DCA5D2D-1F27-4A99-8008-526C1E621A7F}" ShortID="767238853">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Doudou_Grab_02" ID="{2304DCFC-C5C0-43A9-8D53-425880EE049F}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Doudou_Grab_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="47488751"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Doudou_Grab_02" ID="{2304DCFC-C5C0-43A9-8D53-425880EE049F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Doudou_Grab_03" ID="{BA314B8C-7757-47B2-ADC0-AD4A04B98549}" ShortID="355782573">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Doudou_Grab_03" ID="{BA809467-565B-4C47-909D-0013F841DC33}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Doudou_Grab_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="443323341"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Doudou_Grab_03" ID="{BA809467-565B-4C47-909D-0013F841DC33}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Doudou_Throw" ID="{FFA9F780-3D8E-4C98-9029-C151020010B4}" ShortID="404508377">
+											<PropertyList>
+												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_Doudou_Throw_01" ID="{F400F5ED-7479-43B6-879F-4C2B4A9355FE}" ShortID="145574806">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Doudou_Throw_01" ID="{79391E56-4CC6-438D-B13E-E63520028A0F}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Doudou_Throw_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="317334627"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Doudou_Throw_01" ID="{79391E56-4CC6-438D-B13E-E63520028A0F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Doudou_Throw_02" ID="{C7F7BBA2-C73A-4826-AAC6-65120A6F64EF}" ShortID="11899830">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Doudou_Throw_02" ID="{DB25A910-71CA-466A-BA88-6C6A5343D627}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Doudou_Throw_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1070043033"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Doudou_Throw_02" ID="{DB25A910-71CA-466A-BA88-6C6A5343D627}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Doudou_Impact" ID="{62960024-19C7-4ABC-B7F6-EB7FAAA5706E}" ShortID="714545017">
+											<PropertyList>
+												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_Doudou_Impact_01" ID="{4AE6EFC0-773E-4ECD-B9A1-DF96CF05FD84}" ShortID="129555350">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Doudou_Impact_01" ID="{B8F7E5D2-738C-41FF-9FFD-D10E8E1882E4}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Doudou_Impact_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="965060828"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Doudou_Impact_01" ID="{B8F7E5D2-738C-41FF-9FFD-D10E8E1882E4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Doudou_Impact_02" ID="{FB607123-E115-45DC-9B87-61BEF3606244}" ShortID="636307132">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Doudou_Impact_02" ID="{B74E8D61-551F-43F8-B60D-65BCCDE80D7E}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Doudou_Impact_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1024858817"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Doudou_Impact_02" ID="{B74E8D61-551F-43F8-B60D-65BCCDE80D7E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Doudou_Impact_03" ID="{1C4589FE-54BB-4CC5-9487-8F327D74C7C8}" ShortID="277832379">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Doudou_Impact_03" ID="{A1E072B0-B5E3-48D2-B3DD-FA5236480710}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Doudou_Impact_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="117506128"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Doudou_Impact_03" ID="{A1E072B0-B5E3-48D2-B3DD-FA5236480710}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>

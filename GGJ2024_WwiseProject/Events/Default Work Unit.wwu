@@ -392,6 +392,138 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_SFX_Doudou_Impact" ID="{E2231A1D-614A-4116-B82C-F292CB0D22FD}">
+							<ChildrenList>
+								<Action Name="" ID="{27F2D8AE-D838-48CC-89E2-4DD091CB62FA}" ShortID="824765212">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Doudou_Impact" ID="{62960024-19C7-4ABC-B7F6-EB7FAAA5706E}" WorkUnitID="{F150F117-97FF-4AED-ADEC-80E5D964E3CB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Doudou_Throw" ID="{F3C39A0F-65D7-4654-8A84-063277CC5A06}">
+							<ChildrenList>
+								<Action Name="" ID="{C17D82F0-7D0B-435F-B5EB-57B43DEEDF44}" ShortID="48441048">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Doudou_Throw" ID="{FFA9F780-3D8E-4C98-9029-C151020010B4}" WorkUnitID="{F150F117-97FF-4AED-ADEC-80E5D964E3CB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Doudou_Grab" ID="{7BCF3A3B-F01D-4A26-A1FA-5B550308ADEC}">
+							<ChildrenList>
+								<Action Name="" ID="{C22180F8-BC84-4A65-880A-BDB6D3564031}" ShortID="806559110">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Doudou_Grab" ID="{A193C0D1-9A70-41A2-8BDC-BDADAA8DF8A8}" WorkUnitID="{F150F117-97FF-4AED-ADEC-80E5D964E3CB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Commun_Glass_Impact" ID="{757E70F4-15DA-48B1-BA1A-F2627CD591E8}">
+							<ChildrenList>
+								<Action Name="" ID="{C1A39053-0948-4452-9F65-E9EEDDA71F22}" ShortID="518976884">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Commun_Glass_Impact" ID="{BCC22376-8908-467B-8A0C-59EC8BCC1750}" WorkUnitID="{F150F117-97FF-4AED-ADEC-80E5D964E3CB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Commun_Metal_Impact" ID="{9645111E-D9AD-4D81-9A50-91FAF7B195D2}">
+							<ChildrenList>
+								<Action Name="" ID="{4699DD99-7B18-44B8-A329-228B496D222B}" ShortID="754956188">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Commun_Metal_Impact" ID="{81AEB180-9776-4A43-BB0D-26A6F6BBF13E}" WorkUnitID="{F150F117-97FF-4AED-ADEC-80E5D964E3CB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Commun_Wood_Throw" ID="{416418F8-0080-4D6A-8BFE-18070375103D}">
+							<ChildrenList>
+								<Action Name="" ID="{5AB03354-6E79-4FF7-9CCD-C9D8357B4D25}" ShortID="634943526">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Commun_Wood_Throw" ID="{A1E66A82-1664-4EA1-B98C-710921A5A03D}" WorkUnitID="{F150F117-97FF-4AED-ADEC-80E5D964E3CB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Commun_Metal_Throw" ID="{ACFBEF7E-C68F-4B28-ABC9-A8CCD6B03ED4}">
+							<ChildrenList>
+								<Action Name="" ID="{82416AA9-7C11-497D-A1C8-EC50F8FDE1B0}" ShortID="276016373">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Commun_Metal_Throw" ID="{A7FB0589-E80F-4038-8322-F868D37B6CCC}" WorkUnitID="{F150F117-97FF-4AED-ADEC-80E5D964E3CB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Commun_Glass_Grab" ID="{77F6E15C-BE6D-490C-99E1-71A894E8204D}">
+							<ChildrenList>
+								<Action Name="" ID="{555AC468-F590-4AB8-A095-A3B243DD543F}" ShortID="27366950">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Commun_Glass_Grab" ID="{AA397AC6-5FB7-4712-B85A-DE3DEC5034E2}" WorkUnitID="{F150F117-97FF-4AED-ADEC-80E5D964E3CB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Commun_Wood_Impact" ID="{7A1352AF-204B-4324-BBB5-A1CC69D04E89}">
+							<ChildrenList>
+								<Action Name="" ID="{69962F0E-8A34-4994-B42D-78B2717BC182}" ShortID="624575109">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Commun_Wood_Impact" ID="{0AA93432-4329-4C1C-8CB4-3DEFE6BD2F06}" WorkUnitID="{F150F117-97FF-4AED-ADEC-80E5D964E3CB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Commun_Wood_Grab" ID="{CF8E10DC-56F5-4146-9EA0-3ECF65BDF96B}">
+							<ChildrenList>
+								<Action Name="" ID="{16EACAE8-73F6-49F6-927D-218192AFA377}" ShortID="811969937">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Commun_Wood_Grab" ID="{04EDA10B-7C40-4AC6-8C41-AB1AD7BE900E}" WorkUnitID="{F150F117-97FF-4AED-ADEC-80E5D964E3CB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Commun_Metal_Grab" ID="{82AA4952-CE30-4C61-B89E-D77F0B05E24B}">
+							<ChildrenList>
+								<Action Name="" ID="{7F89CB51-FF12-499E-8BC6-382879F8A78B}" ShortID="374080949">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Commun_Metal_Grab" ID="{0D799845-012A-4804-ABA7-3D05A4F34BBC}" WorkUnitID="{F150F117-97FF-4AED-ADEC-80E5D964E3CB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Commun_Glass_Throw" ID="{2BDFB01D-C14F-49BC-AB1B-5294E7B2DA83}">
+							<ChildrenList>
+								<Action Name="" ID="{EFB03FEE-DF3A-490A-9D0E-81A66CEF7BB9}" ShortID="109611500">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Commun_Glass_Throw" ID="{8D242293-4ABE-4CE3-B594-5BEC3424E24F}" WorkUnitID="{F150F117-97FF-4AED-ADEC-80E5D964E3CB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="UI" ID="{8B49C8AB-DA11-4ACD-B1C1-180A4FBD75C3}" ShortID="812477595"/>

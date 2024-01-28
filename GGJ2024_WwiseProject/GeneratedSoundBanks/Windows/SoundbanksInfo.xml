@@ -178,7 +178,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{01F0E79F-2F59-9727-D405-74EFBAA58C10}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{42A134BC-14BF-CE77-094A-788409F6BA4F}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
@@ -202,6 +202,10 @@
 					<ShortName>SFX_Loupe_Throw_02.wav</ShortName>
 					<CachePath>SFX/SFX_Loupe_Throw_02_10C4C929.wem</CachePath>
 				</File>
+				<File Id="47488751" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Doudou_Grab_02.wav</ShortName>
+					<CachePath>SFX/SFX_Doudou_Grab_02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="61601769" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Coussin_Grab_03.wav</ShortName>
 					<CachePath>SFX/SFX_Coussin_Grab_03_10C4C929.wem</CachePath>
@@ -218,6 +222,10 @@
 					<ShortName>SFX_Pistolet_Throw_02.wav</ShortName>
 					<CachePath>SFX/SFX_Pistolet_Throw_02_10C4C929.wem</CachePath>
 				</File>
+				<File Id="117506128" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Doudou_Impact_03.wav</ShortName>
+					<CachePath>SFX/SFX_Doudou_Impact_03_10C4C929.wem</CachePath>
+				</File>
 				<File Id="122933307" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Loupe_Grab_03.wav</ShortName>
 					<CachePath>SFX/SFX_Loupe_Grab_03_10C4C929.wem</CachePath>
@@ -225,6 +233,10 @@
 				<File Id="127300473" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Assommer_01.wav</ShortName>
 					<CachePath>SFX/SFX_MC_Assommer_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="132250416" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Doudou_Grab_01.wav</ShortName>
+					<CachePath>SFX/SFX_Doudou_Grab_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="158556372" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Assommer_02.wav</ShortName>
@@ -258,6 +270,10 @@
 					<ShortName>SFX_Papier_Throw_01.wav</ShortName>
 					<CachePath>SFX/SFX_Papier_Throw_01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="317334627" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Doudou_Throw_01.wav</ShortName>
+					<CachePath>SFX/SFX_Doudou_Throw_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="329676638" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Loupe_Impact_02.wav</ShortName>
 					<CachePath>SFX/SFX_Loupe_Impact_02_10C4C929.wem</CachePath>
@@ -289,6 +305,10 @@
 				<File Id="439069778" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Papier_Grab_03.wav</ShortName>
 					<CachePath>SFX/SFX_Papier_Grab_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="443323341" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Doudou_Grab_03.wav</ShortName>
+					<CachePath>SFX/SFX_Doudou_Grab_03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="443992036" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Epee_Grab_03.wav</ShortName>
@@ -454,6 +474,10 @@
 					<ShortName>SFX_Pistolet_Throw_03.wav</ShortName>
 					<CachePath>SFX/SFX_Pistolet_Throw_03_10C4C929.wem</CachePath>
 				</File>
+				<File Id="965060828" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Doudou_Impact_01.wav</ShortName>
+					<CachePath>SFX/SFX_Doudou_Impact_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="990302476" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Epee_Throw_03.wav</ShortName>
 					<CachePath>SFX/SFX_Epee_Throw_03_10C4C929.wem</CachePath>
@@ -466,9 +490,17 @@
 					<ShortName>SFX_Epee_Slash_02.wav</ShortName>
 					<CachePath>SFX/SFX_Epee_Slash_02_10C4C929.wem</CachePath>
 				</File>
+				<File Id="1024858817" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Doudou_Impact_02.wav</ShortName>
+					<CachePath>SFX/SFX_Doudou_Impact_02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="1042324440" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Common_Grab_03.wav</ShortName>
 					<CachePath>SFX/SFX_Common_Grab_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1070043033" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Doudou_Throw_02.wav</ShortName>
+					<CachePath>SFX/SFX_Doudou_Throw_02_10C4C929.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -542,6 +574,26 @@
 					<MediaRefs>
 						<MediaRef Id="292433357"/>
 						<MediaRef Id="644768598"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1489755775" Name="Play_SFX_Doudou_Grab" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.39438212" DurationMax="0.45177275">
+					<MediaRefs>
+						<MediaRef Id="47488751"/>
+						<MediaRef Id="132250416"/>
+						<MediaRef Id="443323341"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="357813287" Name="Play_SFX_Doudou_Impact" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.2431066" DurationMax="0.291242">
+					<MediaRefs>
+						<MediaRef Id="117506128"/>
+						<MediaRef Id="965060828"/>
+						<MediaRef Id="1024858817"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1713144603" Name="Play_SFX_Doudou_Throw" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.23290096" DurationMax="0.4452173">
+					<MediaRefs>
+						<MediaRef Id="317334627"/>
+						<MediaRef Id="1070043033"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="185603492" Name="Play_SFX_Drink" DurationType="OneShot" DurationMin="0.7673894" DurationMax="1.4180694">
@@ -838,5 +890,5 @@
 			<Path>VOICE.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{4E5F9ECE-2E5F-92FB-6226-F8E38F2D0290}</FileHash>
+	<FileHash>{56DF4F37-77BA-D99E-6BD1-3A8B7DD2C442}</FileHash>
 </SoundBanksInfo>

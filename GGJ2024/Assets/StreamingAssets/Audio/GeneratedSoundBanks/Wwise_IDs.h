@@ -28,6 +28,9 @@ namespace AK
         static const AkUniqueID PLAY_SFX_DILDO_IMPACT = 2289151103U;
         static const AkUniqueID PLAY_SFX_DILDO_SLASH = 2762880728U;
         static const AkUniqueID PLAY_SFX_DILDO_THROW = 3088255043U;
+        static const AkUniqueID PLAY_SFX_DOUDOU_GRAB = 1489755775U;
+        static const AkUniqueID PLAY_SFX_DOUDOU_IMPACT = 357813287U;
+        static const AkUniqueID PLAY_SFX_DOUDOU_THROW = 1713144603U;
         static const AkUniqueID PLAY_SFX_DRINK = 185603492U;
         static const AkUniqueID PLAY_SFX_EAT = 1711751912U;
         static const AkUniqueID PLAY_SFX_EPEE_GRAB = 2246561112U;
