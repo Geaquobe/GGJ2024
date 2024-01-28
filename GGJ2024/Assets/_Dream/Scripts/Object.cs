@@ -13,6 +13,19 @@ public class Object : MonoBehaviour
         OPEN
     }
 
+    [SerializeField]
+    private AK.Wwise.Event _Play_SFX_Grab;
+    [SerializeField]
+    private AK.Wwise.Event _Play_SFX_Throw;
+    [SerializeField]
+    private AK.Wwise.Event _Play_SFX_Impact;
+    [SerializeField]
+    private AK.Wwise.Event _Play_SFX_Interact;
+    [SerializeField]
+    private AK.Wwise.Event _Play_SFX_Open;
+    [SerializeField]
+    private AK.Wwise.Event _Play_SFX_Close;
+
     [SerializeField] private ObjectType type = ObjectType.GRAB;
     [SerializeField] private Vector3 position = Vector3.zero;
     [SerializeField] private Vector3 rotation = Vector3.zero;
@@ -65,6 +78,7 @@ public class Object : MonoBehaviour
         transform.localPosition = position;
         transform.localEulerAngles = rotation;
 
+        _Play_SFX_Grab.Post(gameObject);
         // GRAB SOUND
     }
 
@@ -72,6 +86,7 @@ public class Object : MonoBehaviour
     {
         Debug.Log("Throw");
 
+        _Play_SFX_Throw.Post(gameObject);
         // THROW SOUND
     }
 
@@ -79,6 +94,7 @@ public class Object : MonoBehaviour
     {
         Debug.Log("Interact");
 
+        _Play_SFX_Interact.Post(gameObject);
         // INTERACT SOUND
 
 
@@ -90,10 +106,12 @@ public class Object : MonoBehaviour
 
         if (opened) // OPEN SOUND
         {
+            _Play_SFX_Open.Post(gameObject);
             transform.DOMove(rotation, 0.2f);
         }
         else // CLOSE SOUND
         {
+            _Play_SFX_Close.Post(gameObject);
             transform.DOMove(position, 0.2f);
         }
         //transform.localPosition = opened ? rotation : position;
@@ -104,12 +122,15 @@ public class Object : MonoBehaviour
     {
         Debug.Log("Collision");
 
+        _Play_SFX_Impact.Post(gameObject);
         // COLLISION SOUND
 
     }
 
     private void OnCollisionEnter(Collision collision)
     {
+        if (GetComponent<Rigidbody>().velocity.magnitude > 0.5f)
+            _Play_SFX_Impact.Post(gameObject);
         // COLLISION SOUND
     }
 }

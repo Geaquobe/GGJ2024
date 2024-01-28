@@ -4,6 +4,12 @@
 		<WorkUnit Name="Default Work Unit" ID="{4AA1FA6A-C495-4D50-90A4-EAE63C684CFE}" PersistMode="Standalone">
 			<ChildrenList>
 				<GameParameter Name="RTPC_Slider_Volume" ID="{895DAD1B-3192-404A-9F00-1CD4554C63A9}"/>
+				<GameParameter Name="RTPC_Vitesse_Impact" ID="{AB521D67-65DE-4605-A36D-4C0EFB435096}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="10"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

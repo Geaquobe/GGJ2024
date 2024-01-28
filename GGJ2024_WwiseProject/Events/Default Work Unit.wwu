@@ -524,6 +524,28 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_SFX_Tiroir_Close" ID="{2D2276C6-FF83-4AD9-8B74-15FE125A94F3}">
+							<ChildrenList>
+								<Action Name="" ID="{A4975869-56DB-4525-A239-40B0A229567D}" ShortID="923874735">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Tiroir_Close" ID="{9EB1D720-41E7-44D3-8C6C-8A77371CD9CF}" WorkUnitID="{F150F117-97FF-4AED-ADEC-80E5D964E3CB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Tiroir_Open" ID="{177F32B2-AA04-49E8-8705-9EF63C57D2E2}">
+							<ChildrenList>
+								<Action Name="" ID="{5A3E5AD8-5832-40D4-A38B-B67815983FB3}" ShortID="702003954">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Tiroir_Open" ID="{E9849640-2B38-4C12-8FDD-C424EC2A0D05}" WorkUnitID="{F150F117-97FF-4AED-ADEC-80E5D964E3CB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="UI" ID="{8B49C8AB-DA11-4ACD-B1C1-180A4FBD75C3}" ShortID="812477595"/>

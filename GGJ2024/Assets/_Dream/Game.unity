@@ -245,6 +245,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2291236063528464602, guid: 3ad9897f96365514981bd96a5f23324b, type: 3}
+      propertyPath: _Play_SFX_Open.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 1bcd544111891f242a18fd076f0b06e5, type: 2}
     - target: {fileID: 7986537005981205067, guid: 3ad9897f96365514981bd96a5f23324b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.714
@@ -1281,6 +1285,14 @@ PrefabInstance:
       propertyPath: rotation.z
       value: -0.494
       objectReference: {fileID: 0}
+    - target: {fileID: 4325933253716358463, guid: c92c90a690cdbf84ca8df43bd2721070, type: 3}
+      propertyPath: _Play_SFX_Open.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 1bcd544111891f242a18fd076f0b06e5, type: 2}
+    - target: {fileID: 4325933253716358463, guid: c92c90a690cdbf84ca8df43bd2721070, type: 3}
+      propertyPath: _Play_SFX_Close.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 0b08758b3115da34386f84b208ae5cfa, type: 2}
     - target: {fileID: 6118838975273591320, guid: c92c90a690cdbf84ca8df43bd2721070, type: 3}
       propertyPath: type
       value: 2

@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="247557814" Type="User" Language="SFX" Hash="{615E3A0D-4675-D5B3-A071-3ADA3BFC59B7}">
+		<SoundBank Id="247557814" Type="User" Language="SFX" Hash="{4F0FC4B0-3B1F-BE98-3E46-E7E363EED654}">
 			<ShortName>FOLEY</ShortName>
 			<Path>FOLEY.bnk</Path>
 			<Media>
@@ -178,7 +178,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{8175307B-61A3-F85B-62E0-E18A02746D27}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{5B70B7E7-A4FA-C81E-6633-E461B1E69624}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
@@ -286,6 +286,10 @@
 					<ShortName>SFX_Common_Wood_Grab_01.wav</ShortName>
 					<CachePath>SFX/SFX_Common_Wood_Grab_01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="277710525" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Tiroir_Open_01.wav</ShortName>
+					<CachePath>SFX/SFX_Tiroir_Open_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="280856343" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Coussin_Grab_01.wav</ShortName>
 					<CachePath>SFX/SFX_Coussin_Grab_01_10C4C929.wem</CachePath>
@@ -321,6 +325,10 @@
 				<File Id="348078826" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Bodyfall_02.wav</ShortName>
 					<CachePath>SFX/SFX_MC_Bodyfall_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="349720102" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Tiroir_Close_02.wav</ShortName>
+					<CachePath>SFX/SFX_Tiroir_Close_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="398717632" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Loupe_Impact_01.wav</ShortName>
@@ -434,6 +442,10 @@
 					<ShortName>SFX_Loupe_Grab_02.wav</ShortName>
 					<CachePath>SFX/SFX_Loupe_Grab_02_10C4C929.wem</CachePath>
 				</File>
+				<File Id="711411785" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Tiroir_Close_01.wav</ShortName>
+					<CachePath>SFX/SFX_Tiroir_Close_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="712152187" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Dildo_Slash_02.wav</ShortName>
 					<CachePath>SFX/SFX_Dildo_Slash_02_10C4C929.wem</CachePath>
@@ -445,6 +457,10 @@
 				<File Id="737127240" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Epee_Impact_03.wav</ShortName>
 					<CachePath>SFX/SFX_Epee_Impact_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="738155718" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Tiroir_Open_02.wav</ShortName>
+					<CachePath>SFX/SFX_Tiroir_Open_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="748070566" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Epee_Throw_02.wav</ShortName>
@@ -864,9 +880,21 @@
 						<MediaRef Id="61707168"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="196218410" Name="Play_SFX_Tiroir_Close" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.9437563" DurationMax="1.0594631">
+					<MediaRefs>
+						<MediaRef Id="349720102"/>
+						<MediaRef Id="711411785"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2188382926" Name="Play_SFX_Tiroir_Open" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.94387424" DurationMax="1.0594631">
+					<MediaRefs>
+						<MediaRef Id="277710525"/>
+						<MediaRef Id="738155718"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{5FD50938-0798-FA0C-6D3C-FE8A5BF5D1E8}">
+		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{E9B44D03-6322-C5E3-E567-3FD89440F947}">
 			<ShortName>AMB</ShortName>
 			<Path>AMB.bnk</Path>
 			<Media>
@@ -889,7 +917,7 @@
 				<Event Id="885759189" Name="Stop_AMB_Bedroom" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{A9CC0AC5-7CE8-8F1A-7354-D86D18A08085}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{E94E623B-713A-4809-0073-C983432B9D2B}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -899,6 +927,9 @@
 				</AudioDevices>
 			</Plugins>
 			<Busses>
+				<Bus Id="247557814" Name="FOLEY"/>
+				<Bus Id="393239870" Name="SFX"/>
+				<Bus Id="1117531639" Name="AMB"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 			<GameParameters>
@@ -1046,5 +1077,5 @@
 			<Path>VOICE.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C3361681-C49A-C4B3-0BB3-349DFF5AAE12}</FileHash>
+	<FileHash>{E6DD93D3-6BCF-FE23-2163-972DCEBF0DE0}</FileHash>
 </SoundBanksInfo>

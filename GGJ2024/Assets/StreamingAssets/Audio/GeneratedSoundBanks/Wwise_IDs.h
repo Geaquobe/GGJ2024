@@ -57,6 +57,8 @@ namespace AK
         static const AkUniqueID PLAY_SFX_PISTOLET_SHOT = 2562833167U;
         static const AkUniqueID PLAY_SFX_PISTOLET_THROW = 2404878845U;
         static const AkUniqueID PLAY_SFX_TAPIS_CUT = 879869776U;
+        static const AkUniqueID PLAY_SFX_TIROIR_CLOSE = 196218410U;
+        static const AkUniqueID PLAY_SFX_TIROIR_OPEN = 2188382926U;
         static const AkUniqueID STOP_AMB_BEDROOM = 885759189U;
     } // namespace EVENTS
 
@@ -109,7 +111,10 @@ namespace AK
 
     namespace BUSSES
     {
+        static const AkUniqueID AMB = 1117531639U;
+        static const AkUniqueID FOLEY = 247557814U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
+        static const AkUniqueID SFX = 393239870U;
     } // namespace BUSSES
 
     namespace AUDIO_DEVICES
