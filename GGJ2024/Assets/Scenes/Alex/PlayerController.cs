@@ -14,7 +14,9 @@ public class PlayerController : MonoBehaviour
     private bool canJump = false;
     [SerializeField] private KeyCode jumpKey = KeyCode.Space;
     [SerializeField] private KeyCode grabKey = KeyCode.E;
-    [SerializeField] private KeyCode showKey = KeyCode.Mouse0;
+    [SerializeField] private KeyCode throwKey = KeyCode.Mouse0;
+
+
 
 
     [SerializeField] private Transform orientation;
@@ -26,7 +28,13 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Transform objectHolder;
     [SerializeField] private Transform objectCamera;
 
-    [SerializeField] private float throwForce = 500f;
+    //[SerializeField] private float throwForce = 500f;
+    [SerializeField] private float minThrow = 50f;
+    [SerializeField] private float maxThrow = 500f;
+    [SerializeField] private float timeMinToMax = 1f;
+    private float throwForce = 0;
+
+
     [SerializeField] private float pickUpRange = 5f;
     private float rotationSensitivity = 1f;
 
@@ -73,44 +81,7 @@ public class PlayerController : MonoBehaviour
 
         rigidbody.drag = grounded ? groundDrag : 0;
 
-        if (Input.GetKeyDown(grabKey))
-        {
-            Debug.Log("Grab");
-            if (heldObj == null) //if currently not holding anything
-            {
-                //perform raycast to check if player is looking at object within pickuprange
-                RaycastHit hit;
-                Color color = Color.red;
-                Debug.DrawLine(objectCamera.position, objectCamera.TransformDirection(Vector3.forward) * pickUpRange, color);
-                if (Physics.Raycast(objectCamera.position, objectCamera.TransformDirection(Vector3.forward), out hit, pickUpRange))
-                {
-                    //make sure pickup tag is attached
-                    if (hit.transform.gameObject.tag == "PickUp")
-                    {
-                        //pass in object hit into the PickUpObject function
-                        PickUpObject(hit.transform.gameObject);
-                    }
-                }
-            }
-            else
-            {
-                if (canDrop == true)
-                {
-                    StopClipping(); //prevents object from clipping through walls
-                    DropObject();
-                }
-            }
-        }
-        if (heldObj != null) //if player is holding object
-        {
-            MoveObject(); //keep object position at holdPos
-            RotateObject();
-            if (Input.GetKeyDown(showKey) && canDrop == true) //Mous0 (leftclick) is used to throw, change this if you want another button to be used)
-            {
-                StopClipping();
-                ThrowObject();
-            }
-        }
+        
     }
 
     void PickUpObject(GameObject pickUpObj)
@@ -210,6 +181,52 @@ void ThrowObject()
             Invoke(nameof(ResetJump), jumpCooldown);
         }
 
+        if (Input.GetKeyDown(grabKey))
+        {
+            Debug.Log("Grab");
+            if (heldObj == null) //if currently not holding anything
+            {
+                //perform raycast to check if player is looking at object within pickuprange
+                RaycastHit hit;
+                Color color = Color.red;
+                Debug.DrawLine(objectCamera.position, objectCamera.TransformDirection(Vector3.forward) * pickUpRange, color);
+                if (Physics.Raycast(objectCamera.position, objectCamera.TransformDirection(Vector3.forward), out hit, pickUpRange))
+                {
+                    //make sure pickup tag is attached
+                    if (hit.transform.gameObject.tag == "PickUp")
+                    {
+                        //pass in object hit into the PickUpObject function
+                        PickUpObject(hit.transform.gameObject);
+                    }
+                }
+            }
+            else
+            {
+                if (canDrop == true)
+                {
+                    StopClipping(); //prevents object from clipping through walls
+                    DropObject();
+                }
+            }
+        }
+        if (heldObj != null) //if player is holding object
+        {
+            MoveObject(); //keep object position at holdPos
+            RotateObject();
+            if (Input.GetKeyDown(throwKey) && canDrop == true) //Mous0 (leftclick) is used to throw, change this if you want another button to be used)
+            {
+                throwForce = minThrow;
+            }
+            else if (Input.GetKey(throwKey))
+            {
+                throwForce = throwForce > maxThrow ? maxThrow : throwForce + (maxThrow - minThrow) * Time.deltaTime;
+            }
+            else if (Input.GetKeyUp(throwKey))
+            {
+                StopClipping();
+                ThrowObject();
+            }
+        }
     }
 
     private void MovePlayer()
