@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 346377244990092423}
   - component: {fileID: 5643924520599360092}
   - component: {fileID: 3016969905588919184}
+  - component: {fileID: -6659595968983231326}
   m_Layer: 0
   m_Name: Livre 1
   m_TagString: PickUp
@@ -134,3 +135,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.19689624, y: 0.054462045, z: 0.19375473}
   m_Center: {x: 0.0000087842345, y: 0.027231023, z: 0.011390977}
+--- !u!114 &-6659595968983231326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3638785111345227902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62c9fec53b3ac5c4ab3af0bbbdeac131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 0
+  position: {x: 0, y: 0, z: 0}
+  rotation: {x: 0, y: 0, z: 0}
