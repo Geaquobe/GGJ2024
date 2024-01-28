@@ -113,6 +113,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 37833720399209319}
     m_Modifications:
+    - target: {fileID: 977821594193384395, guid: 737e724d78ac2924c8fd6ae979d6b8c9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0298bfc2f93b47c448613a9f089ca78d, type: 2}
     - target: {fileID: 2571955880666463706, guid: 737e724d78ac2924c8fd6ae979d6b8c9, type: 3}
       propertyPath: m_Name
       value: Medicament 2 (1)
@@ -175,6 +179,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 37833720399209319}
     m_Modifications:
+    - target: {fileID: 1612429409413196600, guid: c3d2ef45245dd094298cd0e65502bb82, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0be6f25c3cc49744690e257edcd8ef09, type: 2}
     - target: {fileID: 4427070605251433760, guid: c3d2ef45245dd094298cd0e65502bb82, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.00477
@@ -237,6 +245,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 37833720399209319}
     m_Modifications:
+    - target: {fileID: 977821594193384395, guid: 737e724d78ac2924c8fd6ae979d6b8c9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0be6f25c3cc49744690e257edcd8ef09, type: 2}
     - target: {fileID: 2571955880666463706, guid: 737e724d78ac2924c8fd6ae979d6b8c9, type: 3}
       propertyPath: m_Name
       value: Medicament 2
