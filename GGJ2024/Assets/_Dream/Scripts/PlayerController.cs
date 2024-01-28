@@ -200,6 +200,10 @@ void ThrowObject()
                         //pass in object hit into the PickUpObject function
                         PickUpObject(hit.transform.gameObject);
                     }
+                    else if (hit.transform.gameObject.tag == "Open")
+                    {
+                        hit.transform.GetComponent<Object>().Open();
+                    }
                 }
             }
             else
