@@ -80,6 +80,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6820394242221170164, guid: 9ede03599c5cf5c4483dbbc227a3a464, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9f0a18c865f396c4780f1fe147147ec4, type: 2}
     - target: {fileID: 919132149155446097, guid: 9ede03599c5cf5c4483dbbc227a3a464, type: 3}
       propertyPath: m_Name
       value: msh_cha_prise_sourir
