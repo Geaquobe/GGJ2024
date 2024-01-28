@@ -157,6 +157,30 @@ MonoBehaviour:
   interactKey: 101
   openKey: 114
   collisionKey: 116
+  _Play_SFX_Grab:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: db22ace0ccc029543bdc69c2063d6df3, type: 2}
+  _Play_SFX_Throw:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 0a71f0041e0b7da4c9a28b793da585a6, type: 2}
+  _Play_SFX_Impact:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 44c03b25ae8ad7143bfa31de5e631632, type: 2}
+  _Play_SFX_Interact:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Open:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Close:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!65 &8317426588760097981
 BoxCollider:
   m_ObjectHideFlags: 0

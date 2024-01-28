@@ -19,7 +19,16 @@ namespace AK
         static const AkUniqueID PLAY_FT_FOOTSTEP = 2524265757U;
         static const AkUniqueID PLAY_SFX_ASSOMMER = 383418027U;
         static const AkUniqueID PLAY_SFX_BODYFALL = 2047017905U;
+        static const AkUniqueID PLAY_SFX_COMMUN_GLASS_GRAB = 268570819U;
+        static const AkUniqueID PLAY_SFX_COMMUN_GLASS_IMPACT = 2713946979U;
+        static const AkUniqueID PLAY_SFX_COMMUN_GLASS_THROW = 3380057559U;
         static const AkUniqueID PLAY_SFX_COMMUN_GRAB = 1306196216U;
+        static const AkUniqueID PLAY_SFX_COMMUN_METAL_GRAB = 821141464U;
+        static const AkUniqueID PLAY_SFX_COMMUN_METAL_IMPACT = 3676287264U;
+        static const AkUniqueID PLAY_SFX_COMMUN_METAL_THROW = 3976960430U;
+        static const AkUniqueID PLAY_SFX_COMMUN_WOOD_GRAB = 1451487810U;
+        static const AkUniqueID PLAY_SFX_COMMUN_WOOD_IMPACT = 1396114850U;
+        static const AkUniqueID PLAY_SFX_COMMUN_WOOD_THROW = 984708148U;
         static const AkUniqueID PLAY_SFX_COUSSIN_GRAB = 2726606975U;
         static const AkUniqueID PLAY_SFX_COUSSIN_IMPACT = 503920167U;
         static const AkUniqueID PLAY_SFX_COUSSIN_THROW = 1947971867U;

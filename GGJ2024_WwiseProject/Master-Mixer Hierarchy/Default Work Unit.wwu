@@ -9,6 +9,25 @@
 							<ObjectRef Name="System" ID="{12BA9679-C84A-4A9B-9563-49401635610D}" WorkUnitID="{8DC50E02-1F80-46F0-9F18-BD84EA8C0186}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="SFX" ID="{F4040163-A49C-4FDB-B449-7A1CDB4AB2E9}">
+							<PropertyList>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+						</Bus>
+						<Bus Name="FOLEY" ID="{8FF6CE0D-1A70-4DFA-AAA8-473E899CB41C}"/>
+						<Bus Name="AMB" ID="{3C0BC3FB-9228-4C7A-8E8C-E711385EDB0F}"/>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

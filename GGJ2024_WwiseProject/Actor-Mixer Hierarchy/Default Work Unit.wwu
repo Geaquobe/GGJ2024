@@ -13,7 +13,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+							<ObjectRef Name="FOLEY" ID="{8FF6CE0D-1A70-4DFA-AAA8-473E899CB41C}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -733,7 +733,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+							<ObjectRef Name="AMB" ID="{3C0BC3FB-9228-4C7A-8E8C-E711385EDB0F}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -814,7 +814,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
+							<ObjectRef Name="SFX" ID="{F4040163-A49C-4FDB-B449-7A1CDB4AB2E9}" WorkUnitID="{664D6519-E556-446C-94B6-D5175FC52CFE}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -1381,6 +1381,21 @@
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Commun_Glass_Impact" ID="{BCC22376-8908-467B-8A0C-59EC8BCC1750}" ShortID="832492114">
 													<PropertyList>
+														<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+														<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+														<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+														<Property Name="MaxSoundPerInstance" Type="int16">
+															<ValueList>
+																<Value>10</Value>
+															</ValueList>
+														</Property>
+														<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
+														<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+														<Property Name="UseMaxSoundPerInstance" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
 																<Value>2</Value>
@@ -1388,6 +1403,9 @@
 														</Property>
 													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="ATT_5m" ID="{350F4D16-552C-4C13-9778-E0D2A2F11E91}" WorkUnitID="{FBE2779A-09D3-4A50-B606-B048825DEA79}"/>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B3566A7-35B4-489F-BECC-6A9E178E3CB9}"/>
 														</Reference>

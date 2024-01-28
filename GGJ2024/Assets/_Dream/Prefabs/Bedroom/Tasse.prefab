@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1137596823351092623}
   - component: {fileID: 8717297903402650496}
   - component: {fileID: 7143122800219068634}
+  - component: {fileID: 992643472709959508}
   m_Layer: 0
   m_Name: Tasse
   m_TagString: PickUp
@@ -133,3 +134,48 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.11467381, y: 0.0877427, z: 0.08774271}
   m_Center: {x: 0.013465548, y: -0.04387127, z: 0}
+--- !u!114 &992643472709959508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 437034820619027401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62c9fec53b3ac5c4ab3af0bbbdeac131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 0
+  position: {x: 0, y: 0, z: 0}
+  rotation: {x: 0, y: 0, z: 0}
+  audioTest: 0
+  grabKey: 97
+  throwKey: 122
+  interactKey: 101
+  openKey: 114
+  collisionKey: 116
+  _Play_SFX_Grab:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 432ad99a7d6f4f24da2cdfb9cf3eabb2, type: 2}
+  _Play_SFX_Throw:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 4a87497e6b7fe574fa3526d4fc612c5d, type: 2}
+  _Play_SFX_Impact:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 2b19d2e336aac2a4cb74db48c5f50d43, type: 2}
+  _Play_SFX_Interact:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Open:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Close:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}

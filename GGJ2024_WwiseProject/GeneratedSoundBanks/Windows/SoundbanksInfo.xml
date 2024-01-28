@@ -178,10 +178,14 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{42A134BC-14BF-CE77-094A-788409F6BA4F}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{8175307B-61A3-F85B-62E0-E18A02746D27}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
+				<File Id="2151190" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Common_Metal_Throw_02.wav</ShortName>
+					<CachePath>SFX/SFX_Common_Metal_Throw_02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="3498284" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Coussin_Throw_02.wav</ShortName>
 					<CachePath>SFX/SFX_Coussin_Throw_02_10C4C929.wem</CachePath>
@@ -206,6 +210,10 @@
 					<ShortName>SFX_Doudou_Grab_02.wav</ShortName>
 					<CachePath>SFX/SFX_Doudou_Grab_02_10C4C929.wem</CachePath>
 				</File>
+				<File Id="51507256" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Common_Wood_Throw_01.wav</ShortName>
+					<CachePath>SFX/SFX_Common_Wood_Throw_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="61601769" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Coussin_Grab_03.wav</ShortName>
 					<CachePath>SFX/SFX_Coussin_Grab_03_10C4C929.wem</CachePath>
@@ -217,6 +225,10 @@
 				<File Id="95116937" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Death_Electricity_Mono.wav</ShortName>
 					<CachePath>SFX/SFX_Death_Electricity_Mono_10C4C929.wem</CachePath>
+				</File>
+				<File Id="100643997" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Common_Metal_Grab_01.wav</ShortName>
+					<CachePath>SFX/SFX_Common_Metal_Grab_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="104865410" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Pistolet_Throw_02.wav</ShortName>
@@ -238,6 +250,10 @@
 					<ShortName>SFX_Doudou_Grab_01.wav</ShortName>
 					<CachePath>SFX/SFX_Doudou_Grab_01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="154662741" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Common_Glass_Grab_03.wav</ShortName>
+					<CachePath>SFX/SFX_Common_Glass_Grab_03_10C4C929.wem</CachePath>
+				</File>
 				<File Id="158556372" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Assommer_02.wav</ShortName>
 					<CachePath>SFX/SFX_MC_Assommer_02_10C4C929.wem</CachePath>
@@ -250,6 +266,14 @@
 					<ShortName>SFX_Dildo_Impact_02.wav</ShortName>
 					<CachePath>SFX/SFX_Dildo_Impact_02_10C4C929.wem</CachePath>
 				</File>
+				<File Id="174984046" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Common_Metal_Throw_01.wav</ShortName>
+					<CachePath>SFX/SFX_Common_Metal_Throw_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="203283862" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Common_Glass_Impact_03.wav</ShortName>
+					<CachePath>SFX/SFX_Common_Glass_Impact_03_10C4C929.wem</CachePath>
+				</File>
 				<File Id="228045458" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Common_Grab_04.wav</ShortName>
 					<CachePath>SFX/SFX_Common_Grab_04_10C4C929.wem</CachePath>
@@ -257,6 +281,10 @@
 				<File Id="238252246" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Loupe_Impact_03.wav</ShortName>
 					<CachePath>SFX/SFX_Loupe_Impact_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="272227057" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Common_Wood_Grab_01.wav</ShortName>
+					<CachePath>SFX/SFX_Common_Wood_Grab_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="280856343" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Coussin_Grab_01.wav</ShortName>
@@ -269,6 +297,14 @@
 				<File Id="300111891" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Papier_Throw_01.wav</ShortName>
 					<CachePath>SFX/SFX_Papier_Throw_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="304127757" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Common_Metal_Impact_03.wav</ShortName>
+					<CachePath>SFX/SFX_Common_Metal_Impact_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="316004773" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Common_Glass_Grab_02.wav</ShortName>
+					<CachePath>SFX/SFX_Common_Glass_Grab_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="317334627" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Doudou_Throw_01.wav</ShortName>
@@ -326,6 +362,10 @@
 					<ShortName>SFX_Eat.wav</ShortName>
 					<CachePath>SFX/SFX_Eat_10C4C929.wem</CachePath>
 				</File>
+				<File Id="484781974" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Common_Metal_Impact_01.wav</ShortName>
+					<CachePath>SFX/SFX_Common_Metal_Impact_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="525890872" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Pistolet_Grab_04.wav</ShortName>
 					<CachePath>SFX/SFX_Pistolet_Grab_04_10C4C929.wem</CachePath>
@@ -333,6 +373,10 @@
 				<File Id="527444255" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Loupe_Throw_03.wav</ShortName>
 					<CachePath>SFX/SFX_Loupe_Throw_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="529841986" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Common_Glass_Grab_01.wav</ShortName>
+					<CachePath>SFX/SFX_Common_Glass_Grab_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="546044165" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Coussin_Grab_02.wav</ShortName>
@@ -346,6 +390,10 @@
 					<ShortName>SFX_Epee_Grab_01.wav</ShortName>
 					<CachePath>SFX/SFX_Epee_Grab_01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="573696177" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Common_Metal_Grab_02.wav</ShortName>
+					<CachePath>SFX/SFX_Common_Metal_Grab_02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="591953631" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Loupe_Throw_01.wav</ShortName>
 					<CachePath>SFX/SFX_Loupe_Throw_01_10C4C929.wem</CachePath>
@@ -354,9 +402,21 @@
 					<ShortName>SFX_Coussin_Impact_01.wav</ShortName>
 					<CachePath>SFX/SFX_Coussin_Impact_01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="620790624" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Common_Glass_Throw_01.wav</ShortName>
+					<CachePath>SFX/SFX_Common_Glass_Throw_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="621080558" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Common_Wood_Grab_02.wav</ShortName>
+					<CachePath>SFX/SFX_Common_Wood_Grab_02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="644768598" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Dildo_Throw_01.wav</ShortName>
 					<CachePath>SFX/SFX_Dildo_Throw_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="660542168" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Common_Metal_Throw_03.wav</ShortName>
+					<CachePath>SFX/SFX_Common_Metal_Throw_03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="669672942" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Common_Grab_02.wav</ShortName>
@@ -422,9 +482,17 @@
 					<ShortName>SFX_Epee_Throw_01.wav</ShortName>
 					<CachePath>SFX/SFX_Epee_Throw_01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="809771325" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Common_Metal_Impact_04.wav</ShortName>
+					<CachePath>SFX/SFX_Common_Metal_Impact_04_10C4C929.wem</CachePath>
+				</File>
 				<File Id="856472085" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Dildo_Impact_03.wav</ShortName>
 					<CachePath>SFX/SFX_Dildo_Impact_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="862257933" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Common_Glass_Impact_04.wav</ShortName>
+					<CachePath>SFX/SFX_Common_Glass_Impact_04_10C4C929.wem</CachePath>
 				</File>
 				<File Id="872422641" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Epee_Impact_02.wav</ShortName>
@@ -442,9 +510,17 @@
 					<ShortName>SFX_Epee_Impact_01.wav</ShortName>
 					<CachePath>SFX/SFX_Epee_Impact_01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="901067669" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Common_Wood_Impact_01.wav</ShortName>
+					<CachePath>SFX/SFX_Common_Wood_Impact_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="901296092" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Pistolet_Impact_01.wav</ShortName>
 					<CachePath>SFX/SFX_Pistolet_Impact_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="907675897" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Common_Wood_Impact_02.wav</ShortName>
+					<CachePath>SFX/SFX_Common_Wood_Impact_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="908649419" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Pistolet_Impact_03.wav</ShortName>
@@ -474,9 +550,25 @@
 					<ShortName>SFX_Pistolet_Throw_03.wav</ShortName>
 					<CachePath>SFX/SFX_Pistolet_Throw_03_10C4C929.wem</CachePath>
 				</File>
+				<File Id="956115262" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Common_Glass_Throw_02.wav</ShortName>
+					<CachePath>SFX/SFX_Common_Glass_Throw_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="962657478" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Common_Wood_Impact_03.wav</ShortName>
+					<CachePath>SFX/SFX_Common_Wood_Impact_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="963735254" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Common_Glass_Impact_02.wav</ShortName>
+					<CachePath>SFX/SFX_Common_Glass_Impact_02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="965060828" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Doudou_Impact_01.wav</ShortName>
 					<CachePath>SFX/SFX_Doudou_Impact_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="970635494" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Common_Glass_Impact_01.wav</ShortName>
+					<CachePath>SFX/SFX_Common_Glass_Impact_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="990302476" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Epee_Throw_03.wav</ShortName>
@@ -498,6 +590,10 @@
 					<ShortName>SFX_Common_Grab_03.wav</ShortName>
 					<CachePath>SFX/SFX_Common_Grab_03_10C4C929.wem</CachePath>
 				</File>
+				<File Id="1063250429" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Common_Metal_Impact_02.wav</ShortName>
+					<CachePath>SFX/SFX_Common_Metal_Impact_02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="1070043033" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Doudou_Throw_02.wav</ShortName>
 					<CachePath>SFX/SFX_Doudou_Throw_02_10C4C929.wem</CachePath>
@@ -517,12 +613,72 @@
 						<MediaRef Id="793947884"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="268570819" Name="Play_SFX_Commun_Glass_Grab" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.20171379" DurationMax="0.5297316">
+					<MediaRefs>
+						<MediaRef Id="154662741"/>
+						<MediaRef Id="316004773"/>
+						<MediaRef Id="529841986"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2713946979" Name="Play_SFX_Commun_Glass_Impact" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.40855992" DurationMax="0.628681">
+					<MediaRefs>
+						<MediaRef Id="203283862"/>
+						<MediaRef Id="862257933"/>
+						<MediaRef Id="963735254"/>
+						<MediaRef Id="970635494"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3380057559" Name="Play_SFX_Commun_Glass_Throw" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.31407416" DurationMax="0.37811798">
+					<MediaRefs>
+						<MediaRef Id="620790624"/>
+						<MediaRef Id="956115262"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1306196216" Name="Play_SFX_Commun_Grab" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.24861255" DurationMax="0.46801785">
 					<MediaRefs>
 						<MediaRef Id="228045458"/>
 						<MediaRef Id="669672942"/>
 						<MediaRef Id="752334588"/>
 						<MediaRef Id="1042324440"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="821141464" Name="Play_SFX_Commun_Metal_Grab" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.33977506" DurationMax="0.5297316">
+					<MediaRefs>
+						<MediaRef Id="100643997"/>
+						<MediaRef Id="573696177"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3676287264" Name="Play_SFX_Commun_Metal_Impact" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.14429478" DurationMax="0.36315307">
+					<MediaRefs>
+						<MediaRef Id="304127757"/>
+						<MediaRef Id="484781974"/>
+						<MediaRef Id="809771325"/>
+						<MediaRef Id="1063250429"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3976960430" Name="Play_SFX_Commun_Metal_Throw" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.23242903" DurationMax="0.26283514">
+					<MediaRefs>
+						<MediaRef Id="2151190"/>
+						<MediaRef Id="174984046"/>
+						<MediaRef Id="660542168"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1451487810" Name="Play_SFX_Commun_Wood_Grab" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.30970874" DurationMax="0.40056533">
+					<MediaRefs>
+						<MediaRef Id="272227057"/>
+						<MediaRef Id="621080558"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1396114850" Name="Play_SFX_Commun_Wood_Impact" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.20369986" DurationMax="0.32251823">
+					<MediaRefs>
+						<MediaRef Id="901067669"/>
+						<MediaRef Id="907675897"/>
+						<MediaRef Id="962657478"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="984708148" Name="Play_SFX_Commun_Wood_Throw" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.26965308" DurationMax="0.3026754">
+					<MediaRefs>
+						<MediaRef Id="51507256"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2726606975" Name="Play_SFX_Coussin_Grab" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.39548331" DurationMax="0.4517948">
@@ -890,5 +1046,5 @@
 			<Path>VOICE.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{56DF4F37-77BA-D99E-6BD1-3A8B7DD2C442}</FileHash>
+	<FileHash>{C3361681-C49A-C4B3-0BB3-349DFF5AAE12}</FileHash>
 </SoundBanksInfo>

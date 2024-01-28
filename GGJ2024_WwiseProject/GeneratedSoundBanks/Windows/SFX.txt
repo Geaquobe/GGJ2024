@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	185603492	Play_SFX_Drink			\Default Work Unit\SFX\Play_SFX_Drink	
+	268570819	Play_SFX_Commun_Glass_Grab			\Default Work Unit\SFX\Play_SFX_Commun_Glass_Grab	
 	357813287	Play_SFX_Doudou_Impact			\Default Work Unit\SFX\Play_SFX_Doudou_Impact	
 	358670559	Play_SFX_Loupe_Break			\Default Work Unit\SFX\Play_SFX_Loupe_Break	
 	378057844	Play_SFX_Loupe_Impact			\Default Work Unit\SFX\Play_SFX_Loupe_Impact	
@@ -8,10 +9,14 @@ Event	ID	Name			Wwise Object Path	Notes
 	533704501	Play_SFX_Epee_Slash			\Default Work Unit\SFX\Play_SFX_Epee_Slash	
 	706616106	Play_SFX_Papier_Throw			\Default Work Unit\SFX\Play_SFX_Papier_Throw	
 	747977262	Play_SFX_Epee_Throw			\Default Work Unit\SFX\Play_SFX_Epee_Throw	
+	821141464	Play_SFX_Commun_Metal_Grab			\Default Work Unit\SFX\Play_SFX_Commun_Metal_Grab	
 	879869776	Play_SFX_Tapis_Cut			\Default Work Unit\SFX\Play_SFX_Tapis_Cut	
+	984708148	Play_SFX_Commun_Wood_Throw			\Default Work Unit\SFX\Play_SFX_Commun_Wood_Throw	
 	1223086071	Play_SFX_Dildo_Grab			\Default Work Unit\SFX\Play_SFX_Dildo_Grab	
 	1306196216	Play_SFX_Commun_Grab			\Default Work Unit\SFX\Play_SFX_Commun_Grab	
+	1396114850	Play_SFX_Commun_Wood_Impact			\Default Work Unit\SFX\Play_SFX_Commun_Wood_Impact	
 	1406297036	Play_SFX_Papier_Grab			\Default Work Unit\SFX\Play_SFX_Papier_Grab	
+	1451487810	Play_SFX_Commun_Wood_Grab			\Default Work Unit\SFX\Play_SFX_Commun_Wood_Grab	
 	1489755775	Play_SFX_Doudou_Grab			\Default Work Unit\SFX\Play_SFX_Doudou_Grab	
 	1623677600	Play_SFX_Epee_Impact			\Default Work Unit\SFX\Play_SFX_Epee_Impact	
 	1711751912	Play_SFX_Eat			\Default Work Unit\SFX\Play_SFX_Eat	
@@ -23,37 +28,50 @@ Event	ID	Name			Wwise Object Path	Notes
 	2289151103	Play_SFX_Dildo_Impact			\Default Work Unit\SFX\Play_SFX_Dildo_Impact	
 	2404878845	Play_SFX_Pistolet_Throw			\Default Work Unit\SFX\Play_SFX_Pistolet_Throw	
 	2562833167	Play_SFX_Pistolet_Shot			\Default Work Unit\SFX\Play_SFX_Pistolet_Shot	
+	2713946979	Play_SFX_Commun_Glass_Impact			\Default Work Unit\SFX\Play_SFX_Commun_Glass_Impact	
 	2726606975	Play_SFX_Coussin_Grab			\Default Work Unit\SFX\Play_SFX_Coussin_Grab	
 	2762880728	Play_SFX_Dildo_Slash			\Default Work Unit\SFX\Play_SFX_Dildo_Slash	
 	2764374482	Play_SFX_Loupe_Throw			\Default Work Unit\SFX\Play_SFX_Loupe_Throw	
 	2958712709	Play_SFX_Pistolet_Impact			\Default Work Unit\SFX\Play_SFX_Pistolet_Impact	
 	3088255043	Play_SFX_Dildo_Throw			\Default Work Unit\SFX\Play_SFX_Dildo_Throw	
+	3380057559	Play_SFX_Commun_Glass_Throw			\Default Work Unit\SFX\Play_SFX_Commun_Glass_Throw	
+	3676287264	Play_SFX_Commun_Metal_Impact			\Default Work Unit\SFX\Play_SFX_Commun_Metal_Impact	
 	3895751602	Play_SFX_Death_Electricity			\Default Work Unit\SFX\Play_SFX_Death_Electricity	
+	3976960430	Play_SFX_Commun_Metal_Throw			\Default Work Unit\SFX\Play_SFX_Commun_Metal_Throw	
 	4037183997	Play_SFX_Pistolet_Grab			\Default Work Unit\SFX\Play_SFX_Pistolet_Grab	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	2151190	SFX_Common_Metal_Throw_02	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Common_Metal_Throw_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Commun\Commun_Metal\Commun_Metal_Throw\SFX_Common_Metal_Throw_02		23768
 	3498284	SFX_Coussin_Throw_02	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Coussin_Throw_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Coussin\Coussin_Throw\SFX_Coussin_Throw_02		20304
 	4891831	SFX_Dildo_Grab_02	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Dildo_Grab_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Dildo\Dildo_Grab\SFX_Dildo_Grab_02		26730
 	19274611	SFX_Pistolet_Throw_01	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Pistolet_Throw_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Pistolet\Pistolet_Throw\SFX_Pistolet_Throw_01		48096
 	28953194	SFX_Pistolet_Shot_02	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Pistolet_Shot_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Pistolet\Pistolet_Shot\SFX_Pistolet_Shot_02		13584
 	31667376	SFX_Loupe_Throw_02	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Loupe_Throw_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Loupe\Loupe_Throw\SFX_Loupe_Throw_02		40980
 	47488751	SFX_Doudou_Grab_02	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Doudou_Grab_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Doudou\Doudou_Grab\SFX_Doudou_Grab_02		40208
+	51507256	SFX_Common_Wood_Throw_01	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Common_Wood_Throw_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Commun\Commun_Wood\Commun_Wood_Throw\SFX_Common_Wood_Throw_01		27522
 	61601769	SFX_Coussin_Grab_03	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Coussin_Grab_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Coussin\Coussin_Grab\SFX_Coussin_Grab_03		41034
 	61707168	SFX_Tapis_Cut	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Tapis_Cut_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Miscellaneous\SFX_Tapis_Cut		178128
 	95116937	SFX_Death_Electricity	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Death_Electricity_Mono_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Death\SFX_Death_Electricity		170154
+	100643997	SFX_Common_Metal_Grab_01	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Common_Metal_Grab_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Commun\Commun_Metal\Commun_Metal_Grab\SFX_Common_Metal_Grab_01		48096
 	104865410	SFX_Pistolet_Throw_02	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Pistolet_Throw_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Pistolet\Pistolet_Throw\SFX_Pistolet_Throw_02		27508
 	117506128	SFX_Doudou_Impact_03	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Doudou_Impact_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Doudou\Doudou_Impact\SFX_Doudou_Impact_03		26312
 	122933307	SFX_Loupe_Grab_03	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Loupe_Grab_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Loupe\Loupe_Grab\SFX_Loupe_Grab_03		25382
 	127300473	SFX_MC_Assommer_01	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_MC_Assommer_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Miscellaneous\Assommer\SFX_MC_Assommer_01		52502
 	132250416	SFX_Doudou_Grab_01	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Doudou_Grab_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Doudou\Doudou_Grab\SFX_Doudou_Grab_01		40438
+	154662741	SFX_Common_Glass_Grab_03	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Common_Glass_Grab_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Commun\Commun_Glass\Commun_Glass_Grab\SFX_Common_Glass_Grab_03		20612
 	158556372	SFX_MC_Assommer_02	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_MC_Assommer_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Miscellaneous\Assommer\SFX_MC_Assommer_02		30840
 	163974530	SFX_Dildo_Impact_01	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Dildo_Impact_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Dildo\Dildo_Impact\SFX_Dildo_Impact_01		21770
 	171522072	SFX_Dildo_Impact_02	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Dildo_Impact_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Dildo\Dildo_Impact\SFX_Dildo_Impact_02		21778
+	174984046	SFX_Common_Metal_Throw_01	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Common_Metal_Throw_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Commun\Commun_Metal\Commun_Metal_Throw\SFX_Common_Metal_Throw_01		23912
+	203283862	SFX_Common_Glass_Impact_03	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Common_Glass_Impact_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Commun\Commun_Glass\Commun_Glass_Impact\SFX_Common_Glass_Impact_03		49206
 	228045458	SFX_Common_Grab_04	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Common_Grab_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Commun\Commun_Grab\SFX_Common_Grab_04		25382
 	238252246	SFX_Loupe_Impact_03	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Loupe_Impact_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Loupe\Loupe_Impact\SFX_Loupe_Impact_03		19778
+	272227057	SFX_Common_Wood_Grab_01	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Common_Wood_Grab_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Commun\Commun_Wood\Commun_Wood_Grab\SFX_Common_Wood_Grab_01		36392
 	280856343	SFX_Coussin_Grab_01	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Coussin_Grab_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Coussin\Coussin_Grab\SFX_Coussin_Grab_01		40438
 	292433357	SFX_Dildo_Throw_02	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Dildo_Throw_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Dildo\Dildo_Throw\SFX_Dildo_Throw_02		48132
 	300111891	SFX_Papier_Throw_01	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Papier_Throw_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Papier\Papier_Throw\SFX_Papier_Throw_01		40438
+	304127757	SFX_Common_Metal_Impact_03	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Common_Metal_Impact_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Commun\Commun_Metal\Commun_Metal_Impact\SFX_Common_Metal_Impact_03		23784
+	316004773	SFX_Common_Glass_Grab_02	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Common_Glass_Grab_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Commun\Commun_Glass\Commun_Glass_Grab\SFX_Common_Glass_Grab_02		20964
 	317334627	SFX_Doudou_Throw_01	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Doudou_Throw_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Doudou\Doudou_Throw\SFX_Doudou_Throw_01		23784
 	329676638	SFX_Loupe_Impact_02	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Loupe_Impact_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Loupe\Loupe_Impact\SFX_Loupe_Impact_02		20588
 	339037742	SFX_Drink_01	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Drink_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Miscellaneous\Drink\SFX_Drink_01		78146
@@ -68,14 +86,20 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	457465856	SFX_Loupe_Grab_01	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Loupe_Grab_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Loupe\Loupe_Grab\SFX_Loupe_Grab_01		28048
 	469372011	SFX_Coussin_Throw_01	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Coussin_Throw_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Coussin\Coussin_Throw\SFX_Coussin_Throw_01		40438
 	477763830	SFX_Eat	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Eat_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Miscellaneous\SFX_Eat		162636
+	484781974	SFX_Common_Metal_Impact_01	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Common_Metal_Impact_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Commun\Commun_Metal\Commun_Metal_Impact\SFX_Common_Metal_Impact_01		20916
 	525890872	SFX_Pistolet_Grab_04	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Pistolet_Grab_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Pistolet\Pistolet_Grab\SFX_Pistolet_Grab_04		25328
 	527444255	SFX_Loupe_Throw_03	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Loupe_Throw_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Loupe\Loupe_Throw\SFX_Loupe_Throw_03		48096
+	529841986	SFX_Common_Glass_Grab_01	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Common_Glass_Grab_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Commun\Commun_Glass\Commun_Glass_Grab\SFX_Common_Glass_Grab_01		48096
 	546044165	SFX_Coussin_Grab_02	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Coussin_Grab_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Coussin\Coussin_Grab\SFX_Coussin_Grab_02		40320
 	554648406	SFX_Dildo_Grab_01	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Dildo_Grab_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Dildo\Dildo_Grab\SFX_Dildo_Grab_01		38258
 	559497439	SFX_Epee_Grab_01	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Epee_Grab_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Epee\Epee_Grab\SFX_Epee_Grab_01		63322
+	573696177	SFX_Common_Metal_Grab_02	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Common_Metal_Grab_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Commun\Commun_Metal\Commun_Metal_Grab\SFX_Common_Metal_Grab_02		34654
 	591953631	SFX_Loupe_Throw_01	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Loupe_Throw_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Loupe\Loupe_Throw\SFX_Loupe_Throw_01		48096
 	618158794	SFX_Coussin_Impact_01	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Coussin_Impact_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Coussin\Coussin_Impact\SFX_Coussin_Impact_01		26766
+	620790624	SFX_Common_Glass_Throw_01	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Common_Glass_Throw_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Commun\Commun_Glass\Commun_Glass_Throw\SFX_Common_Glass_Throw_01		32040
+	621080558	SFX_Common_Wood_Grab_02	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Common_Wood_Grab_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Commun\Commun_Wood\Commun_Wood_Grab\SFX_Common_Wood_Grab_02		31596
 	644768598	SFX_Dildo_Throw_01	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Dildo_Throw_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Dildo\Dildo_Throw\SFX_Dildo_Throw_01		48096
+	660542168	SFX_Common_Metal_Throw_03	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Common_Metal_Throw_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Commun\Commun_Metal\Commun_Metal_Throw\SFX_Common_Metal_Throw_03		23736
 	669672942	SFX_Common_Grab_02	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Common_Grab_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Commun\Commun_Grab\SFX_Common_Grab_02		42504
 	676081892	SFX_Pistolet_Shot_01	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Pistolet_Shot_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Pistolet\Pistolet_Shot\SFX_Pistolet_Shot_01		15752
 	685567305	SFX_Pistolet_Grab_01	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Pistolet_Grab_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Pistolet\Pistolet_Grab\SFX_Pistolet_Grab_01		37116
@@ -92,12 +116,16 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	793613413	SFX_Coussin_Impact_02	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Coussin_Impact_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Coussin\Coussin_Impact\SFX_Coussin_Impact_02		24768
 	793947884	SFX_MC_Bodyfall_01	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_MC_Bodyfall_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Miscellaneous\Bodyfall\SFX_MC_Bodyfall_01		53236
 	802659572	SFX_Epee_Throw_01	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Epee_Throw_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Epee\Epee_Throw\SFX_Epee_Throw_01		48096
+	809771325	SFX_Common_Metal_Impact_04	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Common_Metal_Impact_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Commun\Commun_Metal\Commun_Metal_Impact\SFX_Common_Metal_Impact_04		14772
 	856472085	SFX_Dildo_Impact_03	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Dildo_Impact_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Dildo\Dildo_Impact\SFX_Dildo_Impact_03		22238
+	862257933	SFX_Common_Glass_Impact_04	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Common_Glass_Impact_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Commun\Commun_Glass\Commun_Glass_Impact\SFX_Common_Glass_Impact_04		47746
 	872422641	SFX_Epee_Impact_02	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Epee_Impact_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Epee\Epee_Impact\SFX_Epee_Impact_02		59094
 	889122138	SFX_Pistolet_Shot_03	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Pistolet_Shot_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Pistolet\Pistolet_Shot\SFX_Pistolet_Shot_03		11506
 	891327419	SFX_Pistolet_Grab_02	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Pistolet_Grab_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Pistolet\Pistolet_Grab\SFX_Pistolet_Grab_02		24876
 	893763206	SFX_Epee_Impact_01	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Epee_Impact_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Epee\Epee_Impact\SFX_Epee_Impact_01		59204
+	901067669	SFX_Common_Wood_Impact_01	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Common_Wood_Impact_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Commun\Commun_Wood\Commun_Wood_Impact\SFX_Common_Wood_Impact_01		21094
 	901296092	SFX_Pistolet_Impact_01	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Pistolet_Impact_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Pistolet\Pistolet_Impact\SFX_Pistolet_Impact_01		8382
+	907675897	SFX_Common_Wood_Impact_02	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Common_Wood_Impact_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Commun\Commun_Wood\Commun_Wood_Impact\SFX_Common_Wood_Impact_02		29320
 	908649419	SFX_Pistolet_Impact_03	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Pistolet_Impact_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Pistolet\Pistolet_Impact\SFX_Pistolet_Impact_03		6330
 	923310830	SFX_Papier_Grab_01	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Papier_Grab_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Papier\Papier_Grab\SFX_Papier_Grab_01		41594
 	923658107	SFX_Papier_Throw_02	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Papier_Throw_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Papier\Papier_Throw\SFX_Papier_Throw_02		29992
@@ -105,11 +133,16 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	938781848	SFX_Pistolet_Grab_03	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Pistolet_Grab_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Pistolet\Pistolet_Grab\SFX_Pistolet_Grab_03		28060
 	939885675	SFX_Epee_Slash_01	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Epee_Slash_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Epee\Epee_Slash\SFX_Epee_Slash_01		48096
 	943547553	SFX_Pistolet_Throw_03	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Pistolet_Throw_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Pistolet\Pistolet_Throw\SFX_Pistolet_Throw_03		31516
+	956115262	SFX_Common_Glass_Throw_02	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Common_Glass_Throw_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Commun\Commun_Glass\Commun_Glass_Throw\SFX_Common_Glass_Throw_02		34358
+	962657478	SFX_Common_Wood_Impact_03	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Common_Wood_Impact_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Commun\Commun_Wood\Commun_Wood_Impact\SFX_Common_Wood_Impact_03		20814
+	963735254	SFX_Common_Glass_Impact_02	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Common_Glass_Impact_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Commun\Commun_Glass\Commun_Glass_Impact\SFX_Common_Glass_Impact_02		57062
 	965060828	SFX_Doudou_Impact_01	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Doudou_Impact_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Doudou\Doudou_Impact\SFX_Doudou_Impact_01		26486
+	970635494	SFX_Common_Glass_Impact_01	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Common_Glass_Impact_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Commun\Commun_Glass\Commun_Glass_Impact\SFX_Common_Glass_Impact_01		41650
 	990302476	SFX_Epee_Throw_03	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Epee_Throw_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Epee\Epee_Throw\SFX_Epee_Throw_03		48096
 	998327177	SFX_Loupe_Break	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Loupe_Break_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Loupe\SFX_Loupe_Break		65480
 	1005686979	SFX_Epee_Slash_02	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Epee_Slash_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Epee\Epee_Slash\SFX_Epee_Slash_02		48096
 	1024858817	SFX_Doudou_Impact_02	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Doudou_Impact_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Doudou\Doudou_Impact\SFX_Doudou_Impact_02		24822
 	1042324440	SFX_Common_Grab_03	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Common_Grab_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Commun\Commun_Grab\SFX_Common_Grab_03		28066
+	1063250429	SFX_Common_Metal_Impact_02	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Common_Metal_Impact_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Commun\Commun_Metal\Commun_Metal_Impact\SFX_Common_Metal_Impact_02		33002
 	1070043033	SFX_Doudou_Throw_02	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Doudou_Throw_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Doudou\Doudou_Throw\SFX_Doudou_Throw_02		40438
 
