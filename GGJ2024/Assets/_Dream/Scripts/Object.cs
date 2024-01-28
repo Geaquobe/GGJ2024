@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 
 public class Object : MonoBehaviour
 {
@@ -89,13 +90,13 @@ public class Object : MonoBehaviour
 
         if (opened) // OPEN SOUND
         {
-
+            transform.DOMove(rotation, 0.2f);
         }
         else // CLOSE SOUND
         {
-
+            transform.DOMove(position, 0.2f);
         }
-        transform.localPosition = opened ? rotation : position;
+        //transform.localPosition = opened ? rotation : position;
         opened = !opened;
     }
 

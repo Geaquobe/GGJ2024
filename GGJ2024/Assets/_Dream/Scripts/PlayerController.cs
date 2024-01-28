@@ -141,6 +141,7 @@ public class PlayerController : MonoBehaviour
 
 void ThrowObject()
     {
+        heldObj.transform.GetComponent<Object>().Throw();
         //same as drop function, but add force to object before undefining it
         Physics.IgnoreCollision(heldObj.GetComponent<Collider>(), this.GetComponentInChildren<Collider>(), false);
         heldObj.layer = 0;
