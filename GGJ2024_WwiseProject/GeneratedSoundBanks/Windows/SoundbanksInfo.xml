@@ -9,11 +9,176 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="247557814" Type="User" Language="SFX" Hash="{70880975-9AE1-4CA3-E868-211AB7FBDA89}">
+		<SoundBank Id="247557814" Type="User" Language="SFX" Hash="{615E3A0D-4675-D5B3-A071-3ADA3BFC59B7}">
 			<ShortName>FOLEY</ShortName>
 			<Path>FOLEY.bnk</Path>
+			<Media>
+				<File Id="12886220" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FOL_MC_Sneak_01.wav</ShortName>
+					<CachePath>SFX/FOL_MC_Sneak_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="13650532" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FT_MC_Walk_Bed_02.wav</ShortName>
+					<CachePath>SFX/FT_MC_Walk_Bed_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="24892841" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FT_MC_Walk_Carpet_02.wav</ShortName>
+					<CachePath>SFX/FT_MC_Walk_Carpet_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="86740616" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FT_MC_Walk_Bed_04.wav</ShortName>
+					<CachePath>SFX/FT_MC_Walk_Bed_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="113798167" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FT_MC_Walk_Wood_02.wav</ShortName>
+					<CachePath>SFX/FT_MC_Walk_Wood_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="120132753" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FT_MC_Walk_Wood_07.wav</ShortName>
+					<CachePath>SFX/FT_MC_Walk_Wood_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="255792067" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FT_MC_Walk_Carpet_01.wav</ShortName>
+					<CachePath>SFX/FT_MC_Walk_Carpet_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="280313627" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FOL_MC_Jump_04.wav</ShortName>
+					<CachePath>SFX/FOL_MC_Jump_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="296052903" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FOL_MC_Jump_01.wav</ShortName>
+					<CachePath>SFX/FOL_MC_Jump_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="333228037" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FOL_MC_Sneak_03.wav</ShortName>
+					<CachePath>SFX/FOL_MC_Sneak_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="348275837" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FOL_MC_Jump_02.wav</ShortName>
+					<CachePath>SFX/FOL_MC_Jump_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="368489683" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FT_MC_Walk_Wood_05.wav</ShortName>
+					<CachePath>SFX/FT_MC_Walk_Wood_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="371712424" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FT_MC_Walk_Bed_03.wav</ShortName>
+					<CachePath>SFX/FT_MC_Walk_Bed_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="390363806" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FT_MC_Walk_Wood_01.wav</ShortName>
+					<CachePath>SFX/FT_MC_Walk_Wood_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="474052500" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FT_MC_Walk_Carpet_05.wav</ShortName>
+					<CachePath>SFX/FT_MC_Walk_Carpet_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="506562889" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FOL_MC_Sneak_02.wav</ShortName>
+					<CachePath>SFX/FOL_MC_Sneak_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="570510157" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FT_MC_Walk_Bed_01.wav</ShortName>
+					<CachePath>SFX/FT_MC_Walk_Bed_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="599001427" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FT_MC_Walk_Carpet_04.wav</ShortName>
+					<CachePath>SFX/FT_MC_Walk_Carpet_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="634946309" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FT_MC_Walk_Carpet_03.wav</ShortName>
+					<CachePath>SFX/FT_MC_Walk_Carpet_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="652678005" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FT_MC_Walk_Wood_03.wav</ShortName>
+					<CachePath>SFX/FT_MC_Walk_Wood_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="691441058" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FT_MC_Walk_Wood_04.wav</ShortName>
+					<CachePath>SFX/FT_MC_Walk_Wood_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="709378602" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FT_MC_Walk_Wood_08.wav</ShortName>
+					<CachePath>SFX/FT_MC_Walk_Wood_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="791388915" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FT_MC_Walk_Carpet_06.wav</ShortName>
+					<CachePath>SFX/FT_MC_Walk_Carpet_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="866403808" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FOL_MC_Jump_03.wav</ShortName>
+					<CachePath>SFX/FOL_MC_Jump_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="923232997" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FT_MC_Walk_Wood_06.wav</ShortName>
+					<CachePath>SFX/FT_MC_Walk_Wood_06_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3623063248" Name="Play_FOL_Jump" DurationType="OneShot" DurationMin="0.38191667" DurationMax="0.38320833">
+					<MediaRefs>
+						<MediaRef Id="280313627"/>
+						<MediaRef Id="296052903"/>
+						<MediaRef Id="348275837"/>
+						<MediaRef Id="866403808"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3155300412" Name="Play_FOL_Sneak" DurationType="OneShot" DurationMin="1.2423542" DurationMax="1.26225">
+					<MediaRefs>
+						<MediaRef Id="12886220"/>
+						<MediaRef Id="333228037"/>
+						<MediaRef Id="506562889"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2524265757" Name="Play_FT_Footstep" DurationType="OneShot" DurationMin="0.21311894" DurationMax="0.48783863">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="684570577" Id="2058049674"/>
+							<MediaRefs>
+								<MediaRef Id="113798167"/>
+								<MediaRef Id="120132753"/>
+								<MediaRef Id="368489683"/>
+								<MediaRef Id="390363806"/>
+								<MediaRef Id="652678005"/>
+								<MediaRef Id="691441058"/>
+								<MediaRef Id="709378602"/>
+								<MediaRef Id="923232997"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="684570577" Id="2412606308"/>
+							<MediaRefs>
+								<MediaRef Id="24892841"/>
+								<MediaRef Id="255792067"/>
+								<MediaRef Id="474052500"/>
+								<MediaRef Id="599001427"/>
+								<MediaRef Id="634946309"/>
+								<MediaRef Id="791388915"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="684570577" Id="446279778" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="13650532"/>
+								<MediaRef Id="86740616"/>
+								<MediaRef Id="371712424"/>
+								<MediaRef Id="570510157"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="684570577" Name="Footstep_Material">
+					<Switches>
+						<Switch Id="446279778" Name="Bed"/>
+						<Switch Id="2058049674" Name="Wood"/>
+						<Switch Id="2412606308" Name="Carpet"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{452CA605-563F-4392-D817-A85F57950250}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{01F0E79F-2F59-9727-D405-74EFBAA58C10}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
@@ -385,7 +550,7 @@
 						<MediaRef Id="409645764"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1711751912" Name="Play_SFX_Eat" DurationType="OneShot" DurationMin="0.44002238" DurationMax="0.4939085">
+				<Event Id="1711751912" Name="Play_SFX_Eat" DurationType="OneShot" DurationMin="1.5980971" DurationMax="1.7938036">
 					<MediaRefs>
 						<MediaRef Id="477763830"/>
 					</MediaRefs>
@@ -493,9 +658,28 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{05EF5B5B-F974-94A4-FAD4-4D447B76FAA0}">
+		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{5FD50938-0798-FA0C-6D3C-FE8A5BF5D1E8}">
 			<ShortName>AMB</ShortName>
 			<Path>AMB.bnk</Path>
+			<Media>
+				<File Id="528467999" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Bedroom_B.wav</ShortName>
+					<CachePath>SFX/AMB_Bedroom_B_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="888484924" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Bedroom_A.wav</ShortName>
+					<CachePath>SFX/AMB_Bedroom_A_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="4033747819" Name="Play_AMB_Bedroom" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="528467999"/>
+						<MediaRef Id="888484924"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="885759189" Name="Stop_AMB_Bedroom" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
 		</SoundBank>
 		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{A9CC0AC5-7CE8-8F1A-7354-D86D18A08085}">
 			<ShortName>Init</ShortName>
@@ -521,6 +705,15 @@
 					</States>
 				</StateGroup>
 			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="684570577" Name="Footstep_Material">
+					<Switches>
+						<Switch Id="446279778" Name="Bed"/>
+						<Switch Id="2058049674" Name="Wood"/>
+						<Switch Id="2412606308" Name="Carpet"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 			<AcousticTextures>
 				<AcousticTexture Id="504532776" Name="Brick">
 					<Properties>
@@ -645,5 +838,5 @@
 			<Path>VOICE.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{1C844BDA-2F91-F42C-D1B0-1A2BE15ABF54}</FileHash>
+	<FileHash>{4E5F9ECE-2E5F-92FB-6226-F8E38F2D0290}</FileHash>
 </SoundBanksInfo>

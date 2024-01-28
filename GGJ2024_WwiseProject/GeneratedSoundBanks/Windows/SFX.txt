@@ -59,7 +59,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	443992036	SFX_Epee_Grab_03	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Epee_Grab_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Epee\Epee_Grab\SFX_Epee_Grab_03		63916
 	457465856	SFX_Loupe_Grab_01	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Loupe_Grab_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Loupe\Loupe_Grab\SFX_Loupe_Grab_01		28048
 	469372011	SFX_Coussin_Throw_01	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Coussin_Throw_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Coussin\Coussin_Throw\SFX_Coussin_Throw_01		40438
-	477763830	SFX_Eat	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Eat_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Miscellaneous\SFX_Eat		44850
+	477763830	SFX_Eat	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Eat_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Miscellaneous\SFX_Eat		162636
 	525890872	SFX_Pistolet_Grab_04	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Pistolet_Grab_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Pistolet\Pistolet_Grab\SFX_Pistolet_Grab_04		25328
 	527444255	SFX_Loupe_Throw_03	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Loupe_Throw_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Loupe\Loupe_Throw\SFX_Loupe_Throw_03		48096
 	546044165	SFX_Coussin_Grab_02	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\SFX_Coussin_Grab_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Objets\Coussin\Coussin_Grab\SFX_Coussin_Grab_02		40320

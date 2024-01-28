@@ -7,8 +7,77 @@
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
-				<Folder Name="AMB" ID="{5BCE8836-E841-49AE-9DA3-8CBECFA2CFB4}" ShortID="247915188"/>
-				<Folder Name="FOLEY" ID="{6007A8B8-E7A0-4D0C-87D1-8B9BCA87DC28}" ShortID="927658885"/>
+				<Folder Name="AMB" ID="{5BCE8836-E841-49AE-9DA3-8CBECFA2CFB4}" ShortID="247915188">
+					<ChildrenList>
+						<Event Name="Play_AMB_Bedroom" ID="{27C868F6-BDD3-490E-B926-147013E71BC8}">
+							<ChildrenList>
+								<Action Name="" ID="{E5B3739E-BC58-45C1-A821-9F20FDE8235B}" ShortID="1047935879">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_Bedroom" ID="{C836EA38-2DB5-4E4D-9536-2A94FC1A3957}" WorkUnitID="{F150F117-97FF-4AED-ADEC-80E5D964E3CB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_AMB_Bedroom" ID="{2C8491A7-98E8-4F49-92FF-874CCB2168E6}">
+							<ChildrenList>
+								<Action Name="" ID="{156773D4-C2D1-473A-AFB5-11A722FE1959}" ShortID="1019406790">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="10.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_Bedroom" ID="{C836EA38-2DB5-4E4D-9536-2A94FC1A3957}" WorkUnitID="{F150F117-97FF-4AED-ADEC-80E5D964E3CB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="FOLEY" ID="{6007A8B8-E7A0-4D0C-87D1-8B9BCA87DC28}" ShortID="927658885">
+					<ChildrenList>
+						<Event Name="Play_FT_Footstep" ID="{7DFE68A1-1D79-4039-A241-F116509DBC5A}">
+							<ChildrenList>
+								<Action Name="" ID="{C349310D-6EA7-40CE-A1BD-0AFB74329B08}" ShortID="4576135">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footstep" ID="{B4EF5C2A-7237-47AD-A6F2-D864B5BBA4F0}" WorkUnitID="{F150F117-97FF-4AED-ADEC-80E5D964E3CB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_FOL_Jump" ID="{76E036D9-A9D0-4EEB-B759-5A6CE844883B}">
+							<ChildrenList>
+								<Action Name="" ID="{7CCF3C1E-9E40-4207-88FE-D5FBDFEC9FCD}" ShortID="285065732">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Jump" ID="{0AB48A44-2BF5-4FB0-B98F-5063372FDFF7}" WorkUnitID="{F150F117-97FF-4AED-ADEC-80E5D964E3CB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_FOL_Sneak" ID="{A0552344-9526-457B-BCD5-ACE6A1FC28FE}">
+							<ChildrenList>
+								<Action Name="" ID="{B80EB282-6655-471E-B908-70DA96D28BE5}" ShortID="445503252">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sneak" ID="{D1F364AE-EAE6-4E53-857A-488F604EEE12}" WorkUnitID="{F150F117-97FF-4AED-ADEC-80E5D964E3CB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 				<Folder Name="SFX" ID="{9FCDCDEC-43C2-47C7-BF89-1969A76A84AA}" ShortID="679515523">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="5"/>
@@ -273,7 +342,7 @@
 								<Action Name="" ID="{D77569D5-E2B7-4084-914A-6655F268AE69}" ShortID="841243445">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="SFX_Eat" ID="{24C49945-B29B-43E1-8C26-52915A5FFCEF}" WorkUnitID="{F150F117-97FF-4AED-ADEC-80E5D964E3CB}"/>
+											<ObjectRef Name="SFX_Eat" ID="{0BB18752-3ED0-44E7-B580-095B8F8AF070}" WorkUnitID="{F150F117-97FF-4AED-ADEC-80E5D964E3CB}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

@@ -13,6 +13,10 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_AMB_BEDROOM = 4033747819U;
+        static const AkUniqueID PLAY_FOL_JUMP = 3623063248U;
+        static const AkUniqueID PLAY_FOL_SNEAK = 3155300412U;
+        static const AkUniqueID PLAY_FT_FOOTSTEP = 2524265757U;
         static const AkUniqueID PLAY_SFX_ASSOMMER = 383418027U;
         static const AkUniqueID PLAY_SFX_BODYFALL = 2047017905U;
         static const AkUniqueID PLAY_SFX_COMMUN_GRAB = 1306196216U;
@@ -41,6 +45,7 @@ namespace AK
         static const AkUniqueID PLAY_SFX_PISTOLET_SHOT = 2562833167U;
         static const AkUniqueID PLAY_SFX_PISTOLET_THROW = 2404878845U;
         static const AkUniqueID PLAY_SFX_TAPIS_CUT = 879869776U;
+        static const AkUniqueID STOP_AMB_BEDROOM = 885759189U;
     } // namespace EVENTS
 
     namespace STATES
@@ -58,6 +63,22 @@ namespace AK
         } // namespace VISION
 
     } // namespace STATES
+
+    namespace SWITCHES
+    {
+        namespace FOOTSTEP_MATERIAL
+        {
+            static const AkUniqueID GROUP = 684570577U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID BED = 446279778U;
+                static const AkUniqueID CARPET = 2412606308U;
+                static const AkUniqueID WOOD = 2058049674U;
+            } // namespace SWITCH
+        } // namespace FOOTSTEP_MATERIAL
+
+    } // namespace SWITCHES
 
     namespace GAME_PARAMETERS
     {

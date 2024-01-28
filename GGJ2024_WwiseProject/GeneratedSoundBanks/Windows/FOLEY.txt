@@ -1,0 +1,40 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2524265757	Play_FT_Footstep			\Default Work Unit\FOLEY\Play_FT_Footstep	
+	3155300412	Play_FOL_Sneak			\Default Work Unit\FOLEY\Play_FOL_Sneak	
+	3623063248	Play_FOL_Jump			\Default Work Unit\FOLEY\Play_FOL_Jump	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	684570577	Footstep_Material			\Default Work Unit\Footstep_Material	
+
+Switch	ID	Name	Switch Group			Notes
+	446279778	Bed	Footstep_Material			
+	2058049674	Wood	Footstep_Material			
+	2412606308	Carpet	Footstep_Material			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	12886220	FOL_MC_Sneak_01	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\FOL_MC_Sneak_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FOLEY\Sneak\FOL_MC_Sneak_01		121272
+	13650532	FT_MC_Walk_Bed_02	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\FT_MC_Walk_Bed_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FOLEY\Footstep\Bed\FT_MC_Walk_Bed_02		44300
+	24892841	FT_MC_Walk_Carpet_02	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\FT_MC_Walk_Carpet_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FOLEY\Footstep\Carpet\FT_MC_Walk_Carpet_02		40668
+	86740616	FT_MC_Walk_Bed_04	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\FT_MC_Walk_Bed_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FOLEY\Footstep\Bed\FT_MC_Walk_Bed_04		40088
+	113798167	FT_MC_Walk_Wood_02	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\FT_MC_Walk_Wood_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FOLEY\Footstep\Wood\FT_MC_Walk_Wood_02		21840
+	120132753	FT_MC_Walk_Wood_07	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\FT_MC_Walk_Wood_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FOLEY\Footstep\Wood\FT_MC_Walk_Wood_07		21910
+	255792067	FT_MC_Walk_Carpet_01	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\FT_MC_Walk_Carpet_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FOLEY\Footstep\Carpet\FT_MC_Walk_Carpet_01		40992
+	280313627	FOL_MC_Jump_04	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\FOL_MC_Jump_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FOLEY\Jump\FOL_MC_Jump_04		36760
+	296052903	FOL_MC_Jump_01	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\FOL_MC_Jump_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FOLEY\Jump\FOL_MC_Jump_01		36884
+	333228037	FOL_MC_Sneak_03	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\FOL_MC_Sneak_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FOLEY\Sneak\FOL_MC_Sneak_03		119362
+	348275837	FOL_MC_Jump_02	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\FOL_MC_Jump_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FOLEY\Jump\FOL_MC_Jump_02		36844
+	368489683	FT_MC_Walk_Wood_05	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\FT_MC_Walk_Wood_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FOLEY\Footstep\Wood\FT_MC_Walk_Wood_05		22332
+	371712424	FT_MC_Walk_Bed_03	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\FT_MC_Walk_Bed_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FOLEY\Footstep\Bed\FT_MC_Walk_Bed_03		43260
+	390363806	FT_MC_Walk_Wood_01	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\FT_MC_Walk_Wood_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FOLEY\Footstep\Wood\FT_MC_Walk_Wood_01		22954
+	474052500	FT_MC_Walk_Carpet_05	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\FT_MC_Walk_Carpet_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FOLEY\Footstep\Carpet\FT_MC_Walk_Carpet_05		40930
+	506562889	FOL_MC_Sneak_02	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\FOL_MC_Sneak_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FOLEY\Sneak\FOL_MC_Sneak_02		120928
+	570510157	FT_MC_Walk_Bed_01	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\FT_MC_Walk_Bed_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FOLEY\Footstep\Bed\FT_MC_Walk_Bed_01		41096
+	599001427	FT_MC_Walk_Carpet_04	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\FT_MC_Walk_Carpet_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FOLEY\Footstep\Carpet\FT_MC_Walk_Carpet_04		40876
+	634946309	FT_MC_Walk_Carpet_03	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\FT_MC_Walk_Carpet_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FOLEY\Footstep\Carpet\FT_MC_Walk_Carpet_03		41066
+	652678005	FT_MC_Walk_Wood_03	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\FT_MC_Walk_Wood_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FOLEY\Footstep\Wood\FT_MC_Walk_Wood_03		21882
+	691441058	FT_MC_Walk_Wood_04	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\FT_MC_Walk_Wood_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FOLEY\Footstep\Wood\FT_MC_Walk_Wood_04		22808
+	709378602	FT_MC_Walk_Wood_08	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\FT_MC_Walk_Wood_08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FOLEY\Footstep\Wood\FT_MC_Walk_Wood_08		21772
+	791388915	FT_MC_Walk_Carpet_06	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\FT_MC_Walk_Carpet_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FOLEY\Footstep\Carpet\FT_MC_Walk_Carpet_06		41334
+	866403808	FOL_MC_Jump_03	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\FOL_MC_Jump_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FOLEY\Jump\FOL_MC_Jump_03		36858
+	923232997	FT_MC_Walk_Wood_06	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\FT_MC_Walk_Wood_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FOLEY\Footstep\Wood\FT_MC_Walk_Wood_06		22896
+

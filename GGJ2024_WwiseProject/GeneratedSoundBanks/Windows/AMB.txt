@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	885759189	Stop_AMB_Bedroom			\Default Work Unit\AMB\Stop_AMB_Bedroom	
+	4033747819	Play_AMB_Bedroom			\Default Work Unit\AMB\Play_AMB_Bedroom	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	528467999	AMB_Bedroom_B	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\AMB_Bedroom_B_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb_Bedroom\AMB_Bedroom_B		7104096
+	888484924	AMB_Bedroom_A	D:\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\AMB_Bedroom_A_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb_Bedroom\AMB_Bedroom_A		2880096
+
