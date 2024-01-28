@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 8972271080459285497}
   - component: {fileID: 8587592489744304204}
   - component: {fileID: 6586786301267495909}
-  - component: {fileID: 5840766051100830064}
   - component: {fileID: 7178658200109927376}
+  - component: {fileID: 1510948765911454952}
   m_Layer: 0
   m_Name: Poubelle
   m_TagString: PickUp
@@ -101,33 +101,12 @@ MonoBehaviour:
   type: 0
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0}
+  audioTest: 0
   grabKey: 97
   throwKey: 122
   interactKey: 101
   openKey: 114
   collisionKey: 116
---- !u!64 &5840766051100830064
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8583931691486152891}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4369275295281327114, guid: b622393854dc1944dad95f6d0b8c8a58, type: 3}
 --- !u!54 &7178658200109927376
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -155,3 +134,24 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &1510948765911454952
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8583931691486152891}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.39070028, y: 0.37262934, z: 0.39070025}
+  m_Center: {x: -0.00000009685755, y: 0.18631467, z: 0}

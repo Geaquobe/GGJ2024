@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 6723706414712698407}
   - component: {fileID: 140406500906676479}
   - component: {fileID: 1717243888346468549}
+  - component: {fileID: 3401069718861458629}
+  - component: {fileID: 6041646136864905258}
   m_Layer: 0
   m_Name: Laptop
   m_TagString: PickUp
@@ -108,6 +110,54 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.35, y: 0.024090484, z: 0.26305062}
   m_Center: {x: -0.00000008940697, y: 0.0020452482, z: -0.006525308}
+--- !u!54 &3401069718861458629
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3663174518386373051}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &6041646136864905258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3663174518386373051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62c9fec53b3ac5c4ab3af0bbbdeac131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 0
+  position: {x: 0, y: 0, z: 0}
+  rotation: {x: 0, y: 0, z: 0}
+  audioTest: 0
+  grabKey: 97
+  throwKey: 122
+  interactKey: 101
+  openKey: 114
+  collisionKey: 116
 --- !u!1 &4042558647113618963
 GameObject:
   m_ObjectHideFlags: 0

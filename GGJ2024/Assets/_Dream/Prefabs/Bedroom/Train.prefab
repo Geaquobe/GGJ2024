@@ -151,7 +151,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 0
   position: {x: 0, y: 0, z: 0}
-  rotation: {x: 0, y: 0, z: 0}
+  rotation: {x: 90, y: -90, z: 0}
+  audioTest: 0
   grabKey: 97
   throwKey: 122
   interactKey: 101

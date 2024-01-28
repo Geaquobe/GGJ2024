@@ -16,6 +16,8 @@ public class Object : MonoBehaviour
     [SerializeField] private Vector3 position = Vector3.zero;
     [SerializeField] private Vector3 rotation = Vector3.zero;
 
+    [SerializeField] private bool audioTest = false;
+
 
     [SerializeField] private KeyCode grabKey = KeyCode.A;
     [SerializeField] private KeyCode throwKey = KeyCode.Z;
@@ -43,26 +45,30 @@ public class Object : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(grabKey))
+        if(audioTest)
         {
-            Grab();
+            if (Input.GetKeyDown(grabKey))
+            {
+                Grab();
+            }
+            else if (Input.GetKeyDown(throwKey))
+            {
+                Throw();
+            }
+            else if (Input.GetKeyDown(interactKey))
+            {
+                Interact();
+            }
+            else if (Input.GetKeyDown(openKey))
+            {
+                Open();
+            }
+            else if (Input.GetKeyDown(collisionKey))
+            {
+                Collision();
+            }
         }
-        else if (Input.GetKeyDown(throwKey))
-        {
-            Throw();
-        }
-        else if (Input.GetKeyDown(interactKey))
-        {
-            Interact();
-        }
-        else if (Input.GetKeyDown(openKey))
-        {
-            Open();
-        }
-        else if (Input.GetKeyDown(collisionKey))
-        {
-            Collision();
-        }
+
     }
 
     public void Grab()
