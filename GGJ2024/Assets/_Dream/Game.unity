@@ -1454,11 +1454,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1425788053663799446, guid: 3e6c954d12d0f774b940fe8194b7d575, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.4620461
+      value: 0.198
       objectReference: {fileID: 0}
     - target: {fileID: 1425788053663799446, guid: 3e6c954d12d0f774b940fe8194b7d575, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.135328
+      value: -1.571
       objectReference: {fileID: 0}
     - target: {fileID: 1425788053663799446, guid: 3e6c954d12d0f774b940fe8194b7d575, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1672,6 +1672,38 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa63a6b5d588f0c47b95f931c4bc346d, type: 3}
+--- !u!1 &826403366 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4958342572590005293, guid: 15e0b91469eec724594ef76892bc6460, type: 3}
+  m_PrefabInstance: {fileID: 1208845160}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &826403377
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 826403366}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 116
+  m_CollisionDetection: 0
 --- !u!1001 &844024827
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2233,6 +2265,62 @@ PrefabInstance:
       propertyPath: m_Name
       value: Armoire
       objectReference: {fileID: 0}
+    - target: {fileID: 4177463443552387555, guid: 15e0b91469eec724594ef76892bc6460, type: 3}
+      propertyPath: m_XMotion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4177463443552387555, guid: 15e0b91469eec724594ef76892bc6460, type: 3}
+      propertyPath: m_YMotion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4177463443552387555, guid: 15e0b91469eec724594ef76892bc6460, type: 3}
+      propertyPath: m_ZMotion
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4177463443552387555, guid: 15e0b91469eec724594ef76892bc6460, type: 3}
+      propertyPath: m_AngularXMotion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4177463443552387555, guid: 15e0b91469eec724594ef76892bc6460, type: 3}
+      propertyPath: m_AngularYMotion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4177463443552387555, guid: 15e0b91469eec724594ef76892bc6460, type: 3}
+      propertyPath: m_AngularZMotion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4177463443552387555, guid: 15e0b91469eec724594ef76892bc6460, type: 3}
+      propertyPath: m_LinearLimit.limit
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4297925520667667536, guid: 15e0b91469eec724594ef76892bc6460, type: 3}
+      propertyPath: m_XMotion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4297925520667667536, guid: 15e0b91469eec724594ef76892bc6460, type: 3}
+      propertyPath: m_YMotion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4297925520667667536, guid: 15e0b91469eec724594ef76892bc6460, type: 3}
+      propertyPath: m_ZMotion
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4297925520667667536, guid: 15e0b91469eec724594ef76892bc6460, type: 3}
+      propertyPath: m_AngularXMotion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4297925520667667536, guid: 15e0b91469eec724594ef76892bc6460, type: 3}
+      propertyPath: m_AngularYMotion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4297925520667667536, guid: 15e0b91469eec724594ef76892bc6460, type: 3}
+      propertyPath: m_AngularZMotion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4297925520667667536, guid: 15e0b91469eec724594ef76892bc6460, type: 3}
+      propertyPath: m_LinearLimit.limit
+      value: 0.4
+      objectReference: {fileID: 0}
     - target: {fileID: 4546765528300754851, guid: 15e0b91469eec724594ef76892bc6460, type: 3}
       propertyPath: type
       value: 2
@@ -2260,6 +2348,34 @@ PrefabInstance:
     - target: {fileID: 4546765528300754851, guid: 15e0b91469eec724594ef76892bc6460, type: 3}
       propertyPath: rotation.z
       value: 0.595
+      objectReference: {fileID: 0}
+    - target: {fileID: 6246041672979164305, guid: 15e0b91469eec724594ef76892bc6460, type: 3}
+      propertyPath: m_XMotion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6246041672979164305, guid: 15e0b91469eec724594ef76892bc6460, type: 3}
+      propertyPath: m_YMotion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6246041672979164305, guid: 15e0b91469eec724594ef76892bc6460, type: 3}
+      propertyPath: m_ZMotion
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6246041672979164305, guid: 15e0b91469eec724594ef76892bc6460, type: 3}
+      propertyPath: m_AngularXMotion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6246041672979164305, guid: 15e0b91469eec724594ef76892bc6460, type: 3}
+      propertyPath: m_AngularYMotion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6246041672979164305, guid: 15e0b91469eec724594ef76892bc6460, type: 3}
+      propertyPath: m_AngularZMotion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6246041672979164305, guid: 15e0b91469eec724594ef76892bc6460, type: 3}
+      propertyPath: m_LinearLimit.limit
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 6393115943328614321, guid: 15e0b91469eec724594ef76892bc6460, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2300,6 +2416,34 @@ PrefabInstance:
     - target: {fileID: 6393115943328614321, guid: 15e0b91469eec724594ef76892bc6460, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7539247886561826077, guid: 15e0b91469eec724594ef76892bc6460, type: 3}
+      propertyPath: m_XMotion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7539247886561826077, guid: 15e0b91469eec724594ef76892bc6460, type: 3}
+      propertyPath: m_YMotion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7539247886561826077, guid: 15e0b91469eec724594ef76892bc6460, type: 3}
+      propertyPath: m_ZMotion
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7539247886561826077, guid: 15e0b91469eec724594ef76892bc6460, type: 3}
+      propertyPath: m_AngularXMotion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7539247886561826077, guid: 15e0b91469eec724594ef76892bc6460, type: 3}
+      propertyPath: m_AngularYMotion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7539247886561826077, guid: 15e0b91469eec724594ef76892bc6460, type: 3}
+      propertyPath: m_AngularZMotion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7539247886561826077, guid: 15e0b91469eec724594ef76892bc6460, type: 3}
+      propertyPath: m_LinearLimit.limit
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 7790344822199496430, guid: 15e0b91469eec724594ef76892bc6460, type: 3}
       propertyPath: type
@@ -2360,7 +2504,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4958342572590005293, guid: 15e0b91469eec724594ef76892bc6460, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 826403377}
   m_SourcePrefab: {fileID: 100100000, guid: 15e0b91469eec724594ef76892bc6460, type: 3}
 --- !u!1001 &1211261990
 PrefabInstance:

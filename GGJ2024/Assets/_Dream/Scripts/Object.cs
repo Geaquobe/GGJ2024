@@ -107,12 +107,12 @@ public class Object : MonoBehaviour
         if (opened) // OPEN SOUND
         {
             _Play_SFX_Open.Post(gameObject);
-            transform.DOMove(rotation, 0.2f);
+            transform.DOLocalMove(rotation, 0.2f);
         }
         else // CLOSE SOUND
         {
             _Play_SFX_Close.Post(gameObject);
-            transform.DOMove(position, 0.2f);
+            transform.DOLocalMove(position, 0.2f);
         }
         //transform.localPosition = opened ? rotation : position;
         opened = !opened;
