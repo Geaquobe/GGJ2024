@@ -208,6 +208,35 @@ MonoBehaviour:
   type: 0
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0}
+  grabKey: 97
+  throwKey: 122
+  interactKey: 101
+  openKey: 114
+  collisionKey: 116
+  _Play_SFX_Grab:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Throw:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Impact:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Interact:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Open:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Close:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!4 &82478639 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8633186541846956959, guid: 356e53918be75274fb77bead80d55507, type: 3}
@@ -437,6 +466,35 @@ MonoBehaviour:
   type: 0
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0}
+  grabKey: 97
+  throwKey: 122
+  interactKey: 101
+  openKey: 114
+  collisionKey: 116
+  _Play_SFX_Grab:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Throw:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Impact:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Interact:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Open:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Close:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!54 &518410856
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -500,6 +558,35 @@ MonoBehaviour:
   type: 0
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0}
+  grabKey: 97
+  throwKey: 122
+  interactKey: 101
+  openKey: 114
+  collisionKey: 116
+  _Play_SFX_Grab:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Throw:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Impact:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Interact:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Open:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Close:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &613809271
 GameObject:
   m_ObjectHideFlags: 0
@@ -914,6 +1001,35 @@ MonoBehaviour:
   type: 0
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0}
+  grabKey: 97
+  throwKey: 122
+  interactKey: 101
+  openKey: 114
+  collisionKey: 116
+  _Play_SFX_Grab:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Throw:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Impact:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Interact:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Open:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Close:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &777745983
 GameObject:
   m_ObjectHideFlags: 0
@@ -1063,6 +1179,35 @@ MonoBehaviour:
   type: 0
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 45, y: 45, z: 45}
+  grabKey: 97
+  throwKey: 122
+  interactKey: 101
+  openKey: 114
+  collisionKey: 116
+  _Play_SFX_Grab:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Throw:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Impact:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Interact:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Open:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Close:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &838760628
 GameObject:
   m_ObjectHideFlags: 0
@@ -1253,6 +1398,35 @@ MonoBehaviour:
   type: 0
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0}
+  grabKey: 97
+  throwKey: 122
+  interactKey: 101
+  openKey: 114
+  collisionKey: 116
+  _Play_SFX_Grab:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Throw:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Impact:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Interact:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Open:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Close:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!65 &974555260
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1508,6 +1682,35 @@ MonoBehaviour:
   type: 0
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: -180, z: 0}
+  grabKey: 97
+  throwKey: 122
+  interactKey: 101
+  openKey: 114
+  collisionKey: 116
+  _Play_SFX_Grab:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Throw:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Impact:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Interact:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Open:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Close:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!65 &1075287906
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1597,6 +1800,35 @@ MonoBehaviour:
   type: 0
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0}
+  grabKey: 97
+  throwKey: 122
+  interactKey: 101
+  openKey: 114
+  collisionKey: 116
+  _Play_SFX_Grab:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Throw:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Impact:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Interact:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Open:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Close:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1143407165
 GameObject:
   m_ObjectHideFlags: 0
@@ -1734,6 +1966,35 @@ MonoBehaviour:
   type: 0
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0}
+  grabKey: 97
+  throwKey: 122
+  interactKey: 101
+  openKey: 114
+  collisionKey: 116
+  _Play_SFX_Grab:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Throw:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Impact:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Interact:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Open:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Close:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1332121151
 GameObject:
   m_ObjectHideFlags: 0
@@ -1983,6 +2244,35 @@ MonoBehaviour:
   type: 0
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0}
+  grabKey: 97
+  throwKey: 122
+  interactKey: 101
+  openKey: 114
+  collisionKey: 116
+  _Play_SFX_Grab:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Throw:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Impact:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Interact:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Open:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Close:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!65 &1470913481
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2067,63 +2357,35 @@ MonoBehaviour:
   type: 0
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0}
---- !u!1001 &1480722319
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4016841397084528108, guid: 464d12b14724d8841ae0dd7f85779c97, type: 3}
-      propertyPath: m_Name
-      value: msh_cha_chevet_001
-      objectReference: {fileID: 0}
-    - target: {fileID: 6785736771645606291, guid: 464d12b14724d8841ae0dd7f85779c97, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 2.26626
-      objectReference: {fileID: 0}
-    - target: {fileID: 6785736771645606291, guid: 464d12b14724d8841ae0dd7f85779c97, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.002929151
-      objectReference: {fileID: 0}
-    - target: {fileID: 6785736771645606291, guid: 464d12b14724d8841ae0dd7f85779c97, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.61219335
-      objectReference: {fileID: 0}
-    - target: {fileID: 6785736771645606291, guid: 464d12b14724d8841ae0dd7f85779c97, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6785736771645606291, guid: 464d12b14724d8841ae0dd7f85779c97, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6785736771645606291, guid: 464d12b14724d8841ae0dd7f85779c97, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6785736771645606291, guid: 464d12b14724d8841ae0dd7f85779c97, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6785736771645606291, guid: 464d12b14724d8841ae0dd7f85779c97, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6785736771645606291, guid: 464d12b14724d8841ae0dd7f85779c97, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6785736771645606291, guid: 464d12b14724d8841ae0dd7f85779c97, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 464d12b14724d8841ae0dd7f85779c97, type: 3}
+  grabKey: 97
+  throwKey: 122
+  interactKey: 101
+  openKey: 114
+  collisionKey: 116
+  _Play_SFX_Grab:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Throw:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Impact:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Interact:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Open:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Close:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!65 &1492932088
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2278,6 +2540,35 @@ MonoBehaviour:
   type: 0
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0}
+  grabKey: 97
+  throwKey: 122
+  interactKey: 101
+  openKey: 114
+  collisionKey: 116
+  _Play_SFX_Grab:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 0e997ccd2677f74419b34ab8ad946047, type: 2}
+  _Play_SFX_Throw:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 1b37b7b43b4f9614fb3c959fdd76c63b, type: 2}
+  _Play_SFX_Impact:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 2a0eb8811d2630e4b8a313ad3d816808, type: 2}
+  _Play_SFX_Interact:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: a3f20c09a0908964d8c86aedef2f91ed, type: 2}
+  _Play_SFX_Open:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Close:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!54 &1574358695
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2341,6 +2632,35 @@ MonoBehaviour:
   type: 0
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0}
+  grabKey: 97
+  throwKey: 122
+  interactKey: 101
+  openKey: 114
+  collisionKey: 116
+  _Play_SFX_Grab:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Throw:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Impact:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Interact:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Open:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Close:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!54 &1615859520
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2404,6 +2724,35 @@ MonoBehaviour:
   type: 0
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0}
+  grabKey: 97
+  throwKey: 122
+  interactKey: 101
+  openKey: 114
+  collisionKey: 116
+  _Play_SFX_Grab:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Throw:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Impact:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Interact:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Open:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Close:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1685802582
 GameObject:
   m_ObjectHideFlags: 0
@@ -2569,6 +2918,35 @@ MonoBehaviour:
   type: 0
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0}
+  grabKey: 97
+  throwKey: 122
+  interactKey: 101
+  openKey: 114
+  collisionKey: 116
+  _Play_SFX_Grab:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Throw:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Impact:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Interact:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Open:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Close:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!54 &1764284761
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2632,6 +3010,35 @@ MonoBehaviour:
   type: 0
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 90, y: -180, z: 0}
+  grabKey: 97
+  throwKey: 122
+  interactKey: 101
+  openKey: 114
+  collisionKey: 116
+  _Play_SFX_Grab:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Throw:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Impact:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Interact:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Open:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Close:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!54 &1820738980
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2695,6 +3102,35 @@ MonoBehaviour:
   type: 0
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0}
+  grabKey: 97
+  throwKey: 122
+  interactKey: 101
+  openKey: 114
+  collisionKey: 116
+  _Play_SFX_Grab:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Throw:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Impact:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Interact:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Open:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Close:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1840083660
 GameObject:
   m_ObjectHideFlags: 0
@@ -2844,6 +3280,35 @@ MonoBehaviour:
   type: 0
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0}
+  grabKey: 97
+  throwKey: 122
+  interactKey: 101
+  openKey: 114
+  collisionKey: 116
+  _Play_SFX_Grab:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Throw:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Impact:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Interact:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Open:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Close:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!54 &1945996364
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2907,6 +3372,35 @@ MonoBehaviour:
   type: 0
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 45, y: 45, z: 45}
+  grabKey: 97
+  throwKey: 122
+  interactKey: 101
+  openKey: 114
+  collisionKey: 116
+  _Play_SFX_Grab:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Throw:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Impact:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Interact:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Open:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Close:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!54 &1950735659
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2970,6 +3464,35 @@ MonoBehaviour:
   type: 0
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0}
+  grabKey: 97
+  throwKey: 122
+  interactKey: 101
+  openKey: 114
+  collisionKey: 116
+  _Play_SFX_Grab:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Throw:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Impact:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Interact:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Open:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Close:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1976865099
 GameObject:
   m_ObjectHideFlags: 0
@@ -3067,6 +3590,35 @@ MonoBehaviour:
   type: 0
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0}
+  grabKey: 97
+  throwKey: 122
+  interactKey: 101
+  openKey: 114
+  collisionKey: 116
+  _Play_SFX_Grab:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Throw:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Impact:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Interact:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Open:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Close:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!65 &2065650078
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3172,6 +3724,35 @@ MonoBehaviour:
   type: 0
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 90, y: -90, z: 0}
+  grabKey: 97
+  throwKey: 122
+  interactKey: 101
+  openKey: 114
+  collisionKey: 116
+  _Play_SFX_Grab:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Throw:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Impact:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Interact:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Open:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Close:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!65 &2125664324
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3254,63 +3835,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1001 &87257029322011465
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 543450652516449802}
-    m_Modifications:
-    - target: {fileID: 4016841397084528108, guid: 464d12b14724d8841ae0dd7f85779c97, type: 3}
-      propertyPath: m_Name
-      value: msh_cha_chevet_001
-      objectReference: {fileID: 0}
-    - target: {fileID: 6785736771645606291, guid: 464d12b14724d8841ae0dd7f85779c97, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 2.7034547
-      objectReference: {fileID: 0}
-    - target: {fileID: 6785736771645606291, guid: 464d12b14724d8841ae0dd7f85779c97, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.00020860392
-      objectReference: {fileID: 0}
-    - target: {fileID: 6785736771645606291, guid: 464d12b14724d8841ae0dd7f85779c97, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.4715695
-      objectReference: {fileID: 0}
-    - target: {fileID: 6785736771645606291, guid: 464d12b14724d8841ae0dd7f85779c97, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6785736771645606291, guid: 464d12b14724d8841ae0dd7f85779c97, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.50000006
-      objectReference: {fileID: 0}
-    - target: {fileID: 6785736771645606291, guid: 464d12b14724d8841ae0dd7f85779c97, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.49999997
-      objectReference: {fileID: 0}
-    - target: {fileID: 6785736771645606291, guid: 464d12b14724d8841ae0dd7f85779c97, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6785736771645606291, guid: 464d12b14724d8841ae0dd7f85779c97, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6785736771645606291, guid: 464d12b14724d8841ae0dd7f85779c97, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6785736771645606291, guid: 464d12b14724d8841ae0dd7f85779c97, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 464d12b14724d8841ae0dd7f85779c97, type: 3}
 --- !u!4 &91427552670042356
 Transform:
   m_ObjectHideFlags: 0
@@ -3510,7 +4034,6 @@ Transform:
   - {fileID: 6003861743912784365}
   - {fileID: 2441104276846841885}
   - {fileID: 6764619472831867996}
-  - {fileID: 4958577343820036631}
   - {fileID: 1334952716}
   - {fileID: 1971618867296076177}
   - {fileID: 620908985393139813}
@@ -5934,11 +6457,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4958577343820036631 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6785736771645606291, guid: 464d12b14724d8841ae0dd7f85779c97, type: 3}
-  m_PrefabInstance: {fileID: 87257029322011465}
-  m_PrefabAsset: {fileID: 0}
 --- !u!23 &4982415030862904328
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7746,5 +8264,4 @@ SceneRoots:
   - {fileID: 1685802586}
   - {fileID: 613809274}
   - {fileID: 543450652516449802}
-  - {fileID: 1480722319}
   - {fileID: 1976865100}

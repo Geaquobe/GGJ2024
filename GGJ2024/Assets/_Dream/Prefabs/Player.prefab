@@ -251,14 +251,16 @@ MonoBehaviour:
   airMultiplier: 0.4
   jumpKey: 32
   grabKey: 101
-  showKey: 323
+  throwKey: 323
   orientation: {fileID: 3957968189167220331}
   playerHeight: 0
   groundMask:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 0
   grounded: 0
   objectHolder: {fileID: 0}
   objectCamera: {fileID: 0}
-  throwForce: 500
+  minThrow: 50
+  maxThrow: 500
+  timeMinToMax: 1
   pickUpRange: 5

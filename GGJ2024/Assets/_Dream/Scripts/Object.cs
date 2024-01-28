@@ -25,6 +25,19 @@ public class Object : MonoBehaviour
 
     private bool opened = false;
 
+    [SerializeField]
+    private AK.Wwise.Event _Play_SFX_Grab;
+    [SerializeField]
+    private AK.Wwise.Event _Play_SFX_Throw;
+    [SerializeField]
+    private AK.Wwise.Event _Play_SFX_Impact;
+    [SerializeField]
+    private AK.Wwise.Event _Play_SFX_Interact;
+    [SerializeField]
+    private AK.Wwise.Event _Play_SFX_Open;
+    [SerializeField]
+    private AK.Wwise.Event _Play_SFX_Close;
+
 
 
 
@@ -58,6 +71,8 @@ public class Object : MonoBehaviour
         transform.localPosition = position;
         transform.localEulerAngles = rotation;
 
+        _Play_SFX_Grab.Post(gameObject);
+
         // GRAB SOUND
     }
 
@@ -65,12 +80,16 @@ public class Object : MonoBehaviour
     {
         Debug.Log("Throw");
 
+        _Play_SFX_Throw.Post(gameObject);
+
         // THROW SOUND
     }
 
     public void Interact()
     {
         Debug.Log("Interact");
+
+        _Play_SFX_Interact.Post(gameObject);
 
         // INTERACT SOUND
 
@@ -83,11 +102,11 @@ public class Object : MonoBehaviour
 
         if (opened) // OPEN SOUND
         {
-
+            _Play_SFX_Open.Post(gameObject);
         }
         else // CLOSE SOUND
         {
-
+            _Play_SFX_Close.Post(gameObject);
         }
         transform.localPosition = opened ? rotation : position;
         opened = !opened;
@@ -97,12 +116,16 @@ public class Object : MonoBehaviour
     {
         Debug.Log("Collision");
 
+        _Play_SFX_Impact.Post(gameObject);
+
         // COLLISION SOUND
 
     }
 
     private void OnCollisionEnter(Collision collision)
     {
+        _Play_SFX_Impact.Post(gameObject);
+
         // COLLISION SOUND
     }
 }

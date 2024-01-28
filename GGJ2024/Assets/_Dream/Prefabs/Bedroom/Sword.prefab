@@ -153,3 +153,32 @@ MonoBehaviour:
   type: 0
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0}
+  grabKey: 97
+  throwKey: 122
+  interactKey: 101
+  openKey: 114
+  collisionKey: 116
+  _Play_SFX_Grab:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 0e997ccd2677f74419b34ab8ad946047, type: 2}
+  _Play_SFX_Throw:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 1b37b7b43b4f9614fb3c959fdd76c63b, type: 2}
+  _Play_SFX_Impact:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 2a0eb8811d2630e4b8a313ad3d816808, type: 2}
+  _Play_SFX_Interact:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: a3f20c09a0908964d8c86aedef2f91ed, type: 2}
+  _Play_SFX_Open:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _Play_SFX_Close:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
