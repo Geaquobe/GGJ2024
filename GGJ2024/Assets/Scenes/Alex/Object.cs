@@ -12,15 +12,15 @@ public class Object : MonoBehaviour
     }
 
     [SerializeField] private ObjectType type = ObjectType.GRAB;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] private Vector3 position = Vector3.zero;
+    [SerializeField] private Vector3 rotation = Vector3.zero;
 
-    // Update is called once per frame
-    void Update()
+    public void Grab()
     {
-        
+        Debug.Log("Object Grabbed");
+        Debug.Log(transform.eulerAngles);
+        transform.localPosition = position;
+        transform.localEulerAngles = rotation;
+        Debug.Log(transform.eulerAngles);
     }
 }
