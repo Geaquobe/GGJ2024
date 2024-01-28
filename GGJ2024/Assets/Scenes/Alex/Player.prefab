@@ -250,9 +250,15 @@ MonoBehaviour:
   jumpCooldown: 0.25
   airMultiplier: 0.4
   jumpKey: 32
+  grabKey: 101
+  showKey: 323
   orientation: {fileID: 3957968189167220331}
   playerHeight: 0
   groundMask:
     serializedVersion: 2
     m_Bits: 64
   grounded: 0
+  objectHolder: {fileID: 0}
+  objectCamera: {fileID: 0}
+  throwForce: 500
+  pickUpRange: 5
