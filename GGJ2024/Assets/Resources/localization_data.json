@@ -1,0 +1,113 @@
+{
+    "languages": ["en", "fr"],
+    "table": [{
+            "key": "bt_play_key",
+            "values": [{
+                    "lang": "en",
+                    "value": "PLAY"
+                },
+                {
+                    "lang": "fr",
+                    "value": "JOUER"
+                }
+            ]
+        },
+        {
+            "key": "bt_options_key",
+            "values": [{
+                    "lang": "en",
+                    "value": "OPTIONS"
+                },
+                {
+                    "lang": "fr",
+                    "value": "OPTIONS"
+                }
+            ]
+        },
+        {
+            "key": "bt_credits_key",
+            "values": [{
+                    "lang": "en",
+                    "value": "CREDITS"
+                },
+                {
+                    "lang": "fr",
+                    "value": "CREDITS"
+                }
+            ]
+        },
+        {
+            "key": "bt_exit_key",
+            "values": [{
+                    "lang": "en",
+                    "value": "EXIT"
+                },
+                {
+                    "lang": "fr",
+                    "value": "QUITTER"
+                }
+            ]
+        },
+        {
+            "key": "option_language_key",
+            "values": [{
+                    "lang": "en",
+                    "value": "Language"
+                },
+                {
+                    "lang": "fr",
+                    "value": "Langage"
+                }
+            ]
+        },
+        {
+            "key": "option_volume_key",
+            "values": [{
+                    "lang": "en",
+                    "value": "Volume"
+                },
+                {
+                    "lang": "fr",
+                    "value": "Volume"
+                }
+            ]
+        },
+        {
+            "key": "option_fullscreen_key",
+            "values": [{
+                    "lang": "en",
+                    "value": "FullScreen"
+                },
+                {
+                    "lang": "fr",
+                    "value": "Plein écran"
+                }
+            ]
+        },
+        {
+            "key": "option_resolution_key",
+            "values": [{
+                    "lang": "en",
+                    "value": "Resoltution"
+                },
+                {
+                    "lang": "fr",
+                    "value": "Résolution"
+                }
+            ]
+        },
+        {
+            "key": "option_close_key",
+            "values": [{
+                    "lang": "en",
+                    "value": "Close"
+                },
+                {
+                    "lang": "fr",
+                    "value": "Fermer"
+                }
+            ]
+        }
+
+    ]
+}

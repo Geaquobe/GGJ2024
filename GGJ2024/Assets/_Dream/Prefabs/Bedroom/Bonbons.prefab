@@ -153,6 +153,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5056388147146157276, guid: a1d99fbac74a1304a97b250c2ae21624, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5d4e9b0262f286142adb847b744726ed, type: 2}
     - target: {fileID: 8377826885587415526, guid: a1d99fbac74a1304a97b250c2ae21624, type: 3}
       propertyPath: m_Name
       value: Bonbon
@@ -277,6 +281,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5517690766797587190, guid: c9e1bd9558322a247b1a67454985b0f7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 13f2e3a8b1e409842bf534f3550fbcc6, type: 2}
     - target: {fileID: 7568024785913632002, guid: c9e1bd9558322a247b1a67454985b0f7, type: 3}
       propertyPath: m_Name
       value: Bonbon 2

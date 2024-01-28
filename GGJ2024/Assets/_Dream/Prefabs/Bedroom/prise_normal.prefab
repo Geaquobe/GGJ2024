@@ -124,6 +124,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: msh_cha_prise_normal
       objectReference: {fileID: 0}
+    - target: {fileID: 4661632003292685745, guid: 9ede03599c5cf5c4483dbbc227a3a464, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9f0a18c865f396c4780f1fe147147ec4, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: -5733529269871944083, guid: 9ede03599c5cf5c4483dbbc227a3a464, type: 3}
